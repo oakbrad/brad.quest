@@ -7,7 +7,7 @@
 Notes on repairing/modding an Atari 2600 console [[Journal/2025/2025-08-07\|I found dumped]] on the sidewalk.
 # Hardware
 [Atari 2600 Jr from 1986](https://en.wikipedia.org/wiki/Atari_2600_hardware) "small rainbow" version
-> *In 1986, a new version of the 2600 was released. The new redesigned version of the 2600, unofficially referred to as the 2600 Jr., features a smaller, cost-reduced form factor with a modernized [Atari 7800](https://en.wikipedia.org/wiki/Atari_7800 "Atari 7800")-like appearance. The redesigned 2600 was advertised as a budget gaming system (under $50) that has the ability to run a large collection of classic games. There are several minor stylistic variations of the 2600 Jr. design...
+> *In 1986, a new version of the 2600 was released. The new redesigned version of the 2600, unofficially referred to as the 2600 Jr., features a smaller, cost-reduced form factor with a modernized [Atari 7800](https://en.wikipedia.org/wiki/Atari_7800 "Atari 7800")-like appearance. The redesigned 2600 was advertised as a budget gaming system (under $50) that has the ability to run a large collection of classic games. There are several minor stylistic variations of the 2600 Jr. design...*
 
 ![atarijr-bigrainbw.png](/img/user/System/Uploads/atarijr-bigrainbw.png)
 ![atarijrboard.png](/img/user/System/Uploads/atarijrboard.png)
