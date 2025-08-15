@@ -16,3 +16,6 @@
 <center>
 <iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/pL9o_BwSN-o?si=UVMPFtyNNATKhS5Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
+
+
+* [‘We tried to train it like it was a kid in art school’: artist David Salle on using an AI model to enhance his painting practice](https://www.theartnewspaper.com/2025/04/10/artist-david-salle-on-using-ai-model-enhance-his-painting-practice) Worth reading in full.
