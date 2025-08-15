@@ -3,14 +3,14 @@
     <title>brad.quest</title>
     <link href="https://brad.quest/feed.xml" rel="self" />
     <link href="https://brad.quest" />
-    <updated>2025-08-10T01:24:45Z</updated>
+    <updated>2025-08-15T22:57:36Z</updated>
     <id>https://brad.quest</id>
         <entry>
             <title>
                 Useful Linux Terminal
                 
             </title>
-            <updated>2025-08-10T01:24:34Z</updated>
+            <updated>2025-08-15T22:57:23Z</updated>
             <id>https://brad.quest/tech/useful-linux-terminal/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#linux&quot;&gt;#linux&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reference&quot;&gt;#reference&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tech&quot;&gt;#tech&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cli&quot;&gt;#cli&lt;/a&gt;&lt;/p&gt;
@@ -73,7 +73,7 @@ nano $_
                 On AI &amp; Art
                 
             </title>
-            <updated>2025-08-10T01:24:34Z</updated>
+            <updated>2025-08-15T22:57:23Z</updated>
             <id>https://brad.quest/tech/on-ai-and-art/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#art&quot;&gt;#art&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tech&quot;&gt;#tech&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#ai&quot;&gt;#ai&lt;/a&gt;&lt;/p&gt;
@@ -99,6 +99,10 @@ nano $_
 &lt;center&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; align=&quot;center&quot; src=&quot;https://www.youtube.com/embed/pL9o_BwSN-o?si=UVMPFtyNNATKhS5Z&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 &lt;/center&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.theartnewspaper.com/2025/04/10/artist-david-salle-on-using-ai-model-enhance-his-painting-practice&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;‘We tried to train it like it was a kid in art school’: artist David Salle on using an AI model to enhance his painting practice&lt;/a&gt; Worth reading in full.&lt;/li&gt;
+&lt;/ul&gt;
+
             </content>
             <link href="https://brad.quest/tech/on-ai-and-art/" />
         </entry>
@@ -107,7 +111,7 @@ nano $_
                 Javascript for Artists
                 
             </title>
-            <updated>2025-08-10T01:24:34Z</updated>
+            <updated>2025-08-15T22:57:23Z</updated>
             <id>https://brad.quest/tech/js-for-artists/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#art&quot;&gt;#art&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#webdev&quot;&gt;#webdev&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#programming&quot;&gt;#programming&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reference&quot;&gt;#reference&lt;/a&gt;&lt;/p&gt;
@@ -134,7 +138,7 @@ nano $_
                 Gridfinity in the Studio
                 
             </title>
-            <updated>2025-08-10T01:24:34Z</updated>
+            <updated>2025-08-15T22:57:23Z</updated>
             <id>https://brad.quest/tech/gridfinity/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#3dprinting&quot;&gt;#3dprinting&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#studio&quot;&gt;#studio&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#art&quot;&gt;#art&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tools&quot;&gt;#tools&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#diy&quot;&gt;#diy&lt;/a&gt;&lt;/p&gt;
@@ -183,10 +187,117 @@ nano $_
         </entry>
         <entry>
             <title>
+                Bluesky PDS
+                
+            </title>
+            <updated>2025-08-15T22:57:23Z</updated>
+            <id>https://brad.quest/tech/bluesky-pds/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tech&quot;&gt;#tech&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#selfhost&quot;&gt;#selfhost&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#web&quot;&gt;#web&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bsky.app/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Bluesky&lt;/a&gt; is built on the open &lt;a href=&quot;https://atproto.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ATProto&lt;/a&gt; network. The &lt;strong&gt;P&lt;/strong&gt;ersonal &lt;strong&gt;D&lt;/strong&gt;ata &lt;strong&gt;S&lt;/strong&gt;erver is the network unit that serves as a repository for user data, identity, and media on the network.&lt;/p&gt;
+&lt;blockquote class=&quot;bluesky-embed&quot; data-bluesky-uri=&quot;at://did:plc:w4xbfzo7kqfes5zb7r6qv3rw/app.bsky.feed.post/3ludcalt7i224&quot; data-bluesky-cid=&quot;bafyreigkq2j5c4pov7uqzvyijctafsyroyb4ws63hug2djsz7x267s2zva&quot; data-bluesky-embed-color-mode=&quot;dark&quot;&gt;&lt;p lang=&quot;en&quot;&gt;I would just like to inject in everyone&amp;#x27;s imaginations that at least one (1) path to a network of many networks, a fediverse of many fediverses, is a community of many communities. And that might mean more people should found new communities. And tools should be developed to make that easier.&lt;/p&gt;&amp;mdash; Rudy wants revolution. (&lt;a href=&quot;https://bsky.app/profile/did:plc:w4xbfzo7kqfes5zb7r6qv3rw?ref_src=embed&quot;&gt;@rudyfraser.com&lt;/a&gt;) &lt;a href=&quot;https://bsky.app/profile/did:plc:w4xbfzo7kqfes5zb7r6qv3rw/post/3ludcalt7i224?ref_src=embed&quot;&gt;Jul 19, 2025 at 8:39 AM&lt;/a&gt;&lt;/blockquote&gt;&lt;script async=&quot;&quot; src=&quot;https://embed.bsky.app/static/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;h3 id=&quot;resources&quot; tabindex=&quot;-1&quot;&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/bluesky-social/pds&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;PDS on Github&lt;/a&gt; - the software to run your own PDS&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pdsls.dev/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;pdsls.dev&lt;/a&gt; - handy tool for browsing your PDS&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pdsmoover.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;PDS Moover&lt;/a&gt; - migrate accounts between PDS&lt;/li&gt;
+&lt;li&gt;Blacksky Migration Video&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;set-up-the-pds&quot; tabindex=&quot;-1&quot;&gt;Set up the PDS&lt;/h1&gt;
+&lt;p&gt;Running the official PDS Docker container is pretty simple. It&#39;s pretty lightweight, so you don&#39;t need a fancy server to run it. I use the OCI Free Tier for both my server and their object storage (S3). You could definitely do this on something like a &lt;a href=&quot;https://amzn.to/4mNYSNL&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Raspberry Pi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Before starting this process, you&#39;ll want to &lt;a href=&quot;https://github.com/bluesky-social/pds?tab=readme-ov-file#configure-dns-for-your-domain&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;set up DNS records&lt;/a&gt; with your domain provider and give them some time to propagate.&lt;/p&gt;
+&lt;p&gt;The Github repo has a script you can use to set all this up automatically. You probably just want to do that!&lt;/p&gt;
+&lt;p&gt;I already have a server and proxy running with some other software, so I just need to add the PDS to my existing Docker Compose stack.&lt;/p&gt;
+&lt;p&gt;The relevant portion of my Compose file:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-yaml&quot;&gt;  pds:
+    container_name: pds
+    image: ghcr.io/bluesky-social/pds:latest
+    networks:
+      - public-proxy
+    restart: unless-stopped
+    volumes:
+      - /home/ubuntu/pds/data:/pds
+    env_file:
+      - /home/ubuntu/pds/pds.env
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Running the container will create a template pds.env file at that location specified, which you can then fill out with your secrets and SMTP credentials.&lt;/p&gt;
+&lt;h2 id=&quot;oci-s3&quot; tabindex=&quot;-1&quot;&gt;OCI S3&lt;/h2&gt;
+&lt;p&gt;I also set up S3 storage, which &lt;a href=&quot;https://baileytownsend.dev/articles/s3-blob-store&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Bayley Townsend&#39;s howto&lt;/a&gt; was helpful for figuring out (also the &lt;a href=&quot;https://docs.oracle.com/en-us/iaas/Content/Object/Tasks/s3compatibleapi.htm&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;OCI S3 compatibility&lt;/a&gt; doc). Doing so stores the media in the cloud, so our server&#39;s disk space doesn&#39;t get eaten up with user content like photos or videos.&lt;/p&gt;
+&lt;p&gt;Getting set up with OCI S3 was, of course, not that straightforward:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Make note of your &lt;strong&gt;Region Identifier&lt;/strong&gt;&lt;/a&gt; ex: &lt;code&gt;us-sanjose-1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cloud.oracle.com/object-storage&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Make a new Object Storage bucket&lt;/a&gt; on your account.&lt;/li&gt;
+&lt;li&gt;On &lt;strong&gt;Bucket Details&lt;/strong&gt; page, change visibility to &lt;em&gt;Public&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Make note of the &lt;strong&gt;Namespace&lt;/strong&gt; on the &lt;em&gt;Bucket Details&lt;/em&gt; page&lt;/li&gt;
+&lt;li&gt;Go to your &lt;em&gt;User Profile -&amp;gt; User Settings&lt;/em&gt;. Select &lt;strong&gt;Tokens and Keys&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Scroll down to &lt;strong&gt;Customer secret keys&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Generate a Secret key&lt;/strong&gt; it will only be shown once&lt;/li&gt;
+&lt;li&gt;Back on the previous page, you now need to copy the &lt;strong&gt;Access key&lt;/strong&gt; from &lt;code&gt;...&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Now we have everything we need to add our secrets to our pds.env file:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-YAML&quot;&gt;PDS_BLOBSTORE_S3_BUCKET=&amp;lt;bucket name&amp;gt;
+PDS_BLOBSTORE_S3_REGION=&amp;lt;region&amp;gt;
+PDS_BLOBSTORE_S3_ENDPOINT=https://&amp;lt;namespace&amp;gt;.objectstorage.&amp;lt;region&amp;gt;.oraclecloud.com
+PDS_BLOBSTORE_S3_ACCESS_KEY_ID=&amp;lt;accesskey&amp;gt;
+PDS_BLOBSTORE_S3_SECRET_ACCESS_KEY=&amp;lt;secretkey&amp;gt;
+PDS_BLOBSTORE_S3_FORCE_PATH_STYLE=true
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Once you have done so and started the service you&#39;ll see this message in your browser:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;         __                         __
+        /&#92; &#92;__                     /&#92; &#92;__
+    __  &#92; &#92; ,_&#92;  _____   _ __   ___&#92; &#92; ,_&#92;   ___
+  /&#39;__&#39;&#92; &#92; &#92; &#92;/ /&#92; &#39;__&#39;&#92;/&#92;&#39;&#39;__&#92;/ __&#39;&#92; &#92; &#92;/  / __&#39;&#92;
+ /&#92; &#92;L&#92;.&#92;_&#92; &#92; &#92;_&#92; &#92; &#92;L&#92; &#92; &#92; &#92;//&#92; &#92;L&#92; &#92; &#92; &#92;_/&#92; &#92;L&#92; &#92;
+ &#92; &#92;__/.&#92;_&#92;&#92; &#92;__&#92;&#92; &#92; ,__/&#92; &#92;_&#92;&#92; &#92;____/&#92; &#92;__&#92; &#92;____/
+  &#92;/__/&#92;/_/ &#92;/__/ &#92; &#92; &#92;/  &#92;/_/ &#92;/___/  &#92;/__/&#92;/___/
+                   &#92; &#92;_&#92;
+                    &#92;/_/
+
+This is an AT Protocol Personal Data Server (aka, an atproto PDS)...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You should now be able to browse your PDS at it&#39;s URL with pdsls. &lt;a href=&quot;https://pdsls.dev/hermitary.brad.quest&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Here&#39;s mine&lt;/a&gt;. If you haven&#39;t set up an account though there won&#39;t be any records.&lt;/p&gt;
+&lt;h1 id=&quot;creating-accounts&quot; tabindex=&quot;-1&quot;&gt;Creating Accounts&lt;/h1&gt;
+&lt;p&gt;The pds container doesn&#39;t include pdsadmin tool, so we&#39;ll need to get invite codes via the API. I did this with &lt;a href=&quot;https://postman.co/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Postman&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;HTTP Request&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Type:&lt;/strong&gt; POST&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;URL:&lt;/strong&gt; &lt;code&gt;your.pds.tld/xrpc/com.atproto.server.createInviteCode&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Body:&lt;/strong&gt; raw &lt;code&gt;{&amp;quot;useCount&amp;quot;:1}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Auth:&lt;/strong&gt; Basic Auth
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;User:&lt;/strong&gt; admin&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pass:&lt;/strong&gt; from your pds.env&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once you have the code, you can go to the Bluesky app, enter your PDS and invite, and create an account as normal. Now, moment of truth, make a test post:&lt;/p&gt;
+&lt;blockquote class=&quot;bluesky-embed&quot; data-bluesky-uri=&quot;at://did:plc:nkurkqfdnnrplphhjnuksdzl/app.bsky.feed.post/3lwhrb2tedk2z&quot; data-bluesky-cid=&quot;bafyreigure4da6zirxcercgp4f7hsufymdqs4vlh4d654ibzpfyddlypsy&quot; data-bluesky-embed-color-mode=&quot;dark&quot;&gt;&lt;p lang=&quot;en&quot;&gt;it is me&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://bsky.app/profile/did:plc:nkurkqfdnnrplphhjnuksdzl/post/3lwhrb2tedk2z?ref_src=embed&quot;&gt;[image or embed]&lt;/a&gt;&lt;/p&gt;&amp;mdash; scribe.brad.quest (&lt;a href=&quot;https://bsky.app/profile/did:plc:nkurkqfdnnrplphhjnuksdzl?ref_src=embed&quot;&gt;@scribe.brad.quest&lt;/a&gt;) &lt;a href=&quot;https://bsky.app/profile/did:plc:nkurkqfdnnrplphhjnuksdzl/post/3lwhrb2tedk2z?ref_src=embed&quot;&gt;Aug 15, 2025 at 2:09 PM&lt;/a&gt;&lt;/blockquote&gt;&lt;script async=&quot;&quot; src=&quot;https://embed.bsky.app/static/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;p&gt;You&#39;ll get a &lt;code&gt;500&lt;/code&gt; error if something goes wrong with uploading an image, meaning S3 isn&#39;t working. Double check values in the pds.env and permissions in your OCI account.&lt;/p&gt;
+&lt;h1 id=&quot;migrating-accounts&quot; tabindex=&quot;-1&quot;&gt;Migrating Accounts&lt;/h1&gt;
+&lt;p&gt;I used &lt;a href=&quot;https://pdsmoover.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;PDS MOOver&lt;/a&gt; and it worked perfectly for consolidating 4 accounts on my new PDS. I migrated from Bluesky servers and my own old server.&lt;/p&gt;
+&lt;p&gt;You receive the final PLC code via email. If you are moving from an old self hosted PDS, double check that your SMTP is working properly on that server before attempting this or you won&#39;t receive the PLC.&lt;/p&gt;
+&lt;h1 id=&quot;future&quot; tabindex=&quot;-1&quot;&gt;Future&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker &lt;a href=&quot;https://github.com/cr0ssing/pdsadmin-docker&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;pdsadmin&lt;/a&gt;?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;more-at-proto&quot; tabindex=&quot;-1&quot;&gt;More ATProto&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://recipe.exchange/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;recipe.exchange&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bookhive.buzz/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;BookHive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://brad.quest/tech/bluesky-pds/" />
+        </entry>
+        <entry>
+            <title>
                 Permethrin Treatment
                 
             </title>
-            <updated>2025-08-10T01:24:34Z</updated>
+            <updated>2025-08-15T22:57:23Z</updated>
             <id>https://brad.quest/outdoors/permethrin-treatment/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#camping&quot;&gt;#camping&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gear&quot;&gt;#gear&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#hunting&quot;&gt;#hunting&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fishing&quot;&gt;#fishing&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#math&quot;&gt;#math&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#diy&quot;&gt;#diy&lt;/a&gt;&lt;/p&gt;
@@ -233,7 +344,7 @@ For safe application to clothing, it needs to be diluted to 0.5%&lt;/p&gt;
                 Atari 2600
                 
             </title>
-            <updated>2025-08-10T01:24:34Z</updated>
+            <updated>2025-08-15T22:57:23Z</updated>
             <id>https://brad.quest/tech/gadgets/atari-2600/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#retrogaming&quot;&gt;#retrogaming&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gaming&quot;&gt;#gaming&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#electronics&quot;&gt;#electronics&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gadget&quot;&gt;#gadget&lt;/a&gt;&lt;/p&gt;
@@ -261,6 +372,7 @@ For safe application to clothing, it needs to be diluted to 0.5%&lt;/p&gt;
 &lt;li&gt;&lt;a href=&quot;https://wolfgang-ziegler.com/Blog/atari2600-video-mod&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Atari 2600 Junior Video Mod&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.instructables.com/Atari-Combo-Controller/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;DIY Controller&lt;/a&gt;, &lt;a href=&quot;https://www.instructables.com/Make-Your-Own-Atari-Joystick/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;DIY Joystick&lt;/a&gt; and &lt;a href=&quot;https://forums.atariage.com/topic/341929-45-diy-atari-2600-joystick/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;another joystick&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;accessories&quot; tabindex=&quot;-1&quot;&gt;Accessories&lt;/h2&gt;
 &lt;ul&gt;
@@ -280,7 +392,7 @@ For safe application to clothing, it needs to be diluted to 0.5%&lt;/p&gt;
                 The King in Yellow by Robert Chambers
                 
             </title>
-            <updated>2025-08-10T01:24:34Z</updated>
+            <updated>2025-08-15T22:57:23Z</updated>
             <id>https://brad.quest/log/books/the-king-in-yellow-by-robert-chambers/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fiction&quot;&gt;#fiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fantasy&quot;&gt;#fantasy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#horror&quot;&gt;#horror&lt;/a&gt;&lt;/p&gt;
@@ -311,7 +423,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 Parable of the Sower by Octavia Butler
                 
             </title>
-            <updated>2025-08-10T01:24:34Z</updated>
+            <updated>2025-08-15T22:57:23Z</updated>
             <id>https://brad.quest/log/books/parable-of-the-sower-by-octavia-butler/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#scifi&quot;&gt;#scifi&lt;/a&gt;&lt;/p&gt;
@@ -337,7 +449,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 On Writing by Stephen King
                 
             </title>
-            <updated>2025-08-10T01:24:34Z</updated>
+            <updated>2025-08-15T22:57:23Z</updated>
             <id>https://brad.quest/log/books/on-writing-by-stephen-king/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#writing&quot;&gt;#writing&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#nonfiction&quot;&gt;#nonfiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt;&lt;/p&gt;
@@ -388,7 +500,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 Dungeon Crawler Carl by Matt Dinniman
                 
             </title>
-            <updated>2025-08-10T01:24:34Z</updated>
+            <updated>2025-08-15T22:57:23Z</updated>
             <id>https://brad.quest/log/books/dungeon-crawler-carl-by-matt-dinniman/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fiction&quot;&gt;#fiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fantasy&quot;&gt;#fantasy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#scifi&quot;&gt;#scifi&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#DNF&quot;&gt;#DNF&lt;/a&gt;&lt;/p&gt;
@@ -405,7 +517,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 Black Earth by Timothy Snyder
                 
             </title>
-            <updated>2025-08-10T01:24:34Z</updated>
+            <updated>2025-08-15T22:57:23Z</updated>
             <id>https://brad.quest/log/books/black-earth-by-timothy-snyder/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#nonfiction&quot;&gt;#nonfiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#antifascism&quot;&gt;#antifascism&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt;&lt;/p&gt;
@@ -433,7 +545,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 brad.quest
                 
             </title>
-            <updated>2025-08-10T01:24:34Z</updated>
+            <updated>2025-08-15T22:57:23Z</updated>
             <id>https://brad.quest/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code&gt;You are standing at the end of a road before a small brick building.
@@ -452,7 +564,7 @@ A small stream flows out of the building and down a gully.
                 Elsewhere
                 
             </title>
-            <updated>2025-08-10T01:24:34Z</updated>
+            <updated>2025-08-15T22:57:23Z</updated>
             <id>https://brad.quest/elsewhere/</id>
             <content type="html">
                 &lt;p&gt;Find me elsewhere on the internet, or contact me directly at &lt;a href=&quot;mailto:brad@bradwenner.com&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;brad@bradwenner.com&lt;/a&gt;&lt;/p&gt;
@@ -538,7 +650,7 @@ UwDrA5iAHHUf8w==
                 Digital Dungeon
                 
             </title>
-            <updated>2025-08-10T01:24:34Z</updated>
+            <updated>2025-08-15T22:57:23Z</updated>
             <id>https://brad.quest/digital-dungeon/</id>
             <content type="html">
                 &lt;p&gt;Not a blog, nor is &lt;a href=&quot;https://www.eastgate.com/garden/Enter.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;a garden&lt;/a&gt; the right metaphor. For me the internet was first &lt;a href=&quot;https://mudstats.com/World/Mirkwood&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;a dungeon&lt;/a&gt;.&lt;/p&gt;
@@ -568,7 +680,7 @@ UwDrA5iAHHUf8w==
                 Taco Log
                 
             </title>
-            <updated>2025-08-10T01:24:34Z</updated>
+            <updated>2025-08-15T22:57:23Z</updated>
             <id>https://brad.quest/log/tacos/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#oakland&quot;&gt;#oakland&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#restaurants&quot;&gt;#restaurants&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#food&quot;&gt;#food&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#lifelog&quot;&gt;#lifelog&lt;/a&gt;&lt;/p&gt;
