@@ -21,6 +21,7 @@ Notes on repairing/modding an Atari 2600 console [[Journal/2025/2025-08-07\|I fo
 * [Chrismettal/Atari-Junior-AV-mod: Composite AV mod PCB for the Atari 2600 Junior.](https://github.com/Chrismettal/Atari-Junior-AV-mod)
 	* [$4 board on Tindie](https://www.tindie.com/products/binary-6/2600-junior-composite-av-mod-atari-pal-ntsc/) - on waitlist for 2
 	* [The Atari 2600 Junior Video Mod](https://wolfgang-ziegler.com/Blog/atari2600-video-mod)
+	* [Another 2600 Jr Video Mod](http://blog.tynemouthsoftware.co.uk/2015/02/atari-2600-jr-composite-video-mod.html)
 * [DIY Controller](https://www.instructables.com/Atari-Combo-Controller/), [DIY Joystick](https://www.instructables.com/Make-Your-Own-Atari-Joystick/) and [another joystick](https://forums.atariage.com/topic/341929-45-diy-atari-2600-joystick/)
 ## Accessories
 * [Atari 2600 4KB Flash Cart – insideGadgets Shop](https://shop.insidegadgets.com/product/atari-2600-4kb-flash-cart/) $11 + $33 flash cart
