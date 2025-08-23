@@ -1,0 +1,24 @@
+<hr><center>
+    <small><span id="visit-counter">Loading visits...</span></small>
+</center>
+
+
+<script>
+// Get the current page URL (host + pathname) for consistent counting
+const currentUrl = window.location.host + window.location.pathname;
+const encodedUrl = encodeURIComponent(currentUrl);
+
+fetch(`https://visit-counter.vercel.app/counter?page=${encodedUrl}`)
+  .then(response => response.text())
+  .then(count => {
+    console.log('Visit count:', count);
+    // Optional: Display the count on your page
+    const counterElement = document.getElementById('visit-counter');
+    if (counterElement) {
+      counterElement.innerHTML = `Visits: <code> ${count} </code>`;
+    }
+  })
+  .catch(error => {
+    console.error('Error fetching visit count:', error);
+  });
+  </script>
