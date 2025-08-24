@@ -27,6 +27,21 @@
 </style>
 
 <script>
+  // Function to get the appropriate image source based on the picture element
+  function getAppropriateImageSource(pictureElement) {
+    // If there's no picture element, return null
+    if (!pictureElement) return null;
+    
+    // First, try to find the original full-size image (usually in the img tag)
+    const imgElement = pictureElement.querySelector('img');
+    if (imgElement && imgElement.getAttribute('src')) {
+      // This is the full-size image we want to use for the lightbox
+      return imgElement.getAttribute('src');
+    }
+    
+    return null;
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
     // Wait a bit to ensure all images are loaded
     setTimeout(function() {
@@ -40,23 +55,42 @@
             return;
           }
           
-          // Create a link around the image if it doesn't already have one
+          // Check if the image is inside a picture element
+          const pictureElement = img.closest('picture');
+          let fullSizeImageSrc = img.src; // Default to img.src
+          
+          if (pictureElement) {
+            // Get the full-size image source from the picture element
+            const appropriateSource = getAppropriateImageSource(pictureElement);
+            if (appropriateSource) {
+              fullSizeImageSrc = appropriateSource;
+            }
+          }
+          
+          // Create a link around the image or picture element if it doesn't already have one
           if (img.parentNode.tagName !== 'A') {
             const link = document.createElement('a');
-            link.href = img.src; // Set the link to the image source
+            link.href = fullSizeImageSrc; // Set the link to the full-size image source
             link.classList.add('lightbox-image');
             
-            // Replace the image with the link+image
-            img.parentNode.insertBefore(link, img);
-            link.appendChild(img);
+            // If the image is inside a picture element, wrap the picture element
+            if (pictureElement && pictureElement !== img.parentNode) {
+              // Move the link to be the parent of the picture element
+              pictureElement.parentNode.insertBefore(link, pictureElement);
+              link.appendChild(pictureElement);
+            } else {
+              // Replace the image with the link+image
+              img.parentNode.insertBefore(link, img);
+              link.appendChild(img);
+            }
           } else {
             // If image is already inside a link, add the lightbox class to the link
             img.parentNode.classList.add('lightbox-image');
             
             // Store the original link href if it's not pointing to the image
-            if (img.parentNode.href !== img.src) {
+            if (img.parentNode.href !== fullSizeImageSrc) {
               img.parentNode.setAttribute('data-original-href', img.parentNode.href);
-              img.parentNode.href = img.src;
+              img.parentNode.href = fullSizeImageSrc;
             }
           }
         });
@@ -79,4 +113,3 @@
     }, 500);
   });
 </script>
-
