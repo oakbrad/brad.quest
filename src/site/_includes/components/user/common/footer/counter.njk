@@ -1,5 +1,5 @@
 <hr><center>
-    <small><span id="visit-counter">Loading visits...</span></small>
+    <small>Visits: <span id="visit-counter"><code>  </code></span></small>
 </center>
 
 
@@ -15,7 +15,7 @@ fetch(`https://visit-counter.vercel.app/counter?page=${encodedUrl}`)
     // Optional: Display the count on your page
     const counterElement = document.getElementById('visit-counter');
     if (counterElement) {
-      counterElement.innerHTML = `Visits: <code> ${count} </code>`;
+      counterElement.innerHTML = `<code> ${count} </code>`;
     }
   })
   .catch(error => {
