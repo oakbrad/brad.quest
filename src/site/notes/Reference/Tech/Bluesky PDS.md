@@ -13,6 +13,7 @@
 * [pdsls.dev](https://pdsls.dev/) - handy tool for browsing your PDS
 * [pdsadmin-web](https://mkizka.github.io/pdsadmin-web/) - a web based tool for performing some basic admin functions
 * [PDS Moover](https://pdsmoover.com/) - migrate accounts between PDS
+* [Independent PDS Directory](https://blue.mackuba.eu/directory/pdses)
 # Setting up the PDS
 Running the official PDS Docker container is pretty simple. It's pretty lightweight, so you don't need a fancy server to run it. I use the OCI Free Tier for both my server and their object storage (S3). You could definitely do this on something like a [Raspberry Pi](https://amzn.to/4mNYSNL).
 

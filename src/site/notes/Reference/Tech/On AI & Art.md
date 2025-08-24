@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Tech/On AI & Art.md","permalink":"/tech/on-ai-and-art/","noteIcon":"1"}
+{"dg-publish":true,"dg-path":"Creative/On AI & Art.md","permalink":"/creative/on-ai-and-art/","noteIcon":"1"}
 ---
 
 #art #tech #ai
@@ -18,4 +18,6 @@
 </center>
 
 
-* [‘We tried to train it like it was a kid in art school’: artist David Salle on using an AI model to enhance his painting practice](https://www.theartnewspaper.com/2025/04/10/artist-david-salle-on-using-ai-model-enhance-his-painting-practice) Worth reading in full.
+* [‘We tried to train it like it was a kid in art school’: artist David Salle on using an AI model in his painting practice](https://www.theartnewspaper.com/2025/04/10/artist-david-salle-on-using-ai-model-enhance-his-painting-practice) Worth reading in full.
+* [Adversarial Perturbations Cannot Reliably Protect Artists From Generative AI](https://arxiv.org/abs/2406.12027) 
+  > *"all existing protections can be easily bypassed, leaving artists vulnerable to style mimicry"*

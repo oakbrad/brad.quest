@@ -10,4 +10,4 @@ Around you is a forest.
 A small stream flows out of the building and down a gully.
 ```
 
-A digital ~~garden~~ [[Projects/brad.quest/Digital Dungeon\|dungeon]].
+A digital ~~garden~~ [[Projects/brad.quest/About\|dungeon]].
