@@ -3,14 +3,14 @@
     <title>brad.quest</title>
     <link href="https://brad.quest/feed.xml" rel="self" />
     <link href="https://brad.quest" />
-    <updated>2025-08-24T19:07:05Z</updated>
+    <updated>2025-08-24T23:49:47Z</updated>
     <id>https://brad.quest</id>
         <entry>
             <title>
                 Useful Linux Terminal
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/tech/useful-linux-terminal/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#linux&quot;&gt;#linux&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reference&quot;&gt;#reference&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tech&quot;&gt;#tech&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cli&quot;&gt;#cli&lt;/a&gt;&lt;/p&gt;
@@ -73,7 +73,7 @@ nano $_
                 On AI &amp; Art
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/creative/on-ai-and-art/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#art&quot;&gt;#art&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tech&quot;&gt;#tech&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#ai&quot;&gt;#ai&lt;/a&gt;&lt;/p&gt;
@@ -116,7 +116,7 @@ nano $_
                 Garden Modifications
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/tech/garden-modifications/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#web&quot;&gt;#web&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#diy&quot;&gt;#diy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#software&quot;&gt;#software&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#webdev&quot;&gt;#webdev&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#vibecoding&quot;&gt;#vibecoding&lt;/a&gt;&lt;/p&gt;
@@ -188,7 +188,7 @@ fetch(`https://visit-counter.vercel.app/counter?page=${encodedUrl}`)
                 Javascript for Artists
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/creative/javascript-for-artists/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#art&quot;&gt;#art&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#webdev&quot;&gt;#webdev&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#programming&quot;&gt;#programming&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reference&quot;&gt;#reference&lt;/a&gt;&lt;/p&gt;
@@ -216,7 +216,7 @@ fetch(`https://visit-counter.vercel.app/counter?page=${encodedUrl}`)
                 Gridfinity in the Studio
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/tech/gridfinity/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#3dprinting&quot;&gt;#3dprinting&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#studio&quot;&gt;#studio&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#art&quot;&gt;#art&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tools&quot;&gt;#tools&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#diy&quot;&gt;#diy&lt;/a&gt;&lt;/p&gt;
@@ -268,7 +268,7 @@ fetch(`https://visit-counter.vercel.app/counter?page=${encodedUrl}`)
                 Bluesky PDS
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/tech/bluesky-pds/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tech&quot;&gt;#tech&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#selfhost&quot;&gt;#selfhost&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#web&quot;&gt;#web&lt;/a&gt;&lt;/p&gt;
@@ -382,7 +382,7 @@ This is an AT Protocol Personal Data Server (aka, an atproto PDS)...
                 Permethrin Treatment
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/outdoors/permethrin-treatment/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#camping&quot;&gt;#camping&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gear&quot;&gt;#gear&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#hunting&quot;&gt;#hunting&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fishing&quot;&gt;#fishing&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#math&quot;&gt;#math&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#diy&quot;&gt;#diy&lt;/a&gt;&lt;/p&gt;
@@ -429,7 +429,7 @@ For safe application to clothing, it needs to be diluted to 0.5%&lt;/p&gt;
                 Atari 2600
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/tech/gadgets/atari-2600/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#retrogaming&quot;&gt;#retrogaming&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gaming&quot;&gt;#gaming&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#electronics&quot;&gt;#electronics&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gadget&quot;&gt;#gadget&lt;/a&gt;&lt;/p&gt;
@@ -478,7 +478,7 @@ For safe application to clothing, it needs to be diluted to 0.5%&lt;/p&gt;
                 The King in Yellow by Robert Chambers
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/log/books/the-king-in-yellow-by-robert-chambers/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fiction&quot;&gt;#fiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fantasy&quot;&gt;#fantasy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#horror&quot;&gt;#horror&lt;/a&gt;&lt;/p&gt;
@@ -509,7 +509,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 Parable of the Sower by Octavia Butler
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/log/books/parable-of-the-sower-by-octavia-butler/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#scifi&quot;&gt;#scifi&lt;/a&gt;&lt;/p&gt;
@@ -535,7 +535,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 On Writing by Stephen King
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/log/books/on-writing-by-stephen-king/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#writing&quot;&gt;#writing&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#nonfiction&quot;&gt;#nonfiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt;&lt;/p&gt;
@@ -586,7 +586,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 Dungeon Crawler Carl by Matt Dinniman
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/log/books/dungeon-crawler-carl-by-matt-dinniman/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fiction&quot;&gt;#fiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fantasy&quot;&gt;#fantasy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#scifi&quot;&gt;#scifi&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#DNF&quot;&gt;#DNF&lt;/a&gt;&lt;/p&gt;
@@ -603,7 +603,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 Black Earth by Timothy Snyder
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/log/books/black-earth-by-timothy-snyder/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#nonfiction&quot;&gt;#nonfiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#antifascism&quot;&gt;#antifascism&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt;&lt;/p&gt;
@@ -631,7 +631,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 brad.quest
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code&gt;You are standing at the end of a road before a small brick building.
@@ -647,10 +647,29 @@ A small stream flows out of the building and down a gully.
         </entry>
         <entry>
             <title>
+                Now
+                
+            </title>
+            <updated>2025-08-24T23:49:31Z</updated>
+            <id>https://brad.quest/now/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#lifelog&quot;&gt;#lifelog&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#now&quot;&gt;#now&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;what-am-i-up-to-currently&quot; tabindex=&quot;-1&quot;&gt;What am I up to currently?&lt;/h1&gt;
+&lt;p&gt;Professionally, since the pandemic I&#39;ve been mostly focused on providing &lt;a href=&quot;https://bradwenner.digital/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;digital capture services&lt;/a&gt; to photo productions. I like being on set and solving problems with other creative people.&lt;/p&gt;
+&lt;p&gt;My current personal projects involve &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;learning Python&lt;/a&gt; and hacking away on an &lt;a href=&quot;https://www.evennia.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Evennia&lt;/a&gt;-based &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;MUD&lt;/a&gt; game. I&#39;ve also been exploring AI &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;vibecoding&lt;/a&gt; tools and have had some success turning &lt;a href=&quot;https://github.com/oakbrad/dungeonchurch-oracle&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;data into visualizations&lt;/a&gt;, which is something I want to &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;2&quot; href=&quot;https://brad.quest/creative/javascript-for-artists/&quot;&gt;explore&lt;/a&gt; more of.&lt;/p&gt;
+&lt;center&gt;&lt;iframe width=&quot;700&quot; height=&quot;500&quot; src=&quot;https://oakbrad.github.io/dungeonchurch-oracle&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
+&lt;p&gt;My tabletop &lt;a href=&quot;https://www.dungeon.church/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;gaming group&lt;/a&gt; recently finished up a nearly 3 year, 50+ session D&amp;amp;D campaign. A long term project of mine has been turning &lt;a href=&quot;https://github.com/oakbrad/dungeonchurch-pyora&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;the things we make&lt;/a&gt; into &lt;a href=&quot;https://github.com/oakbrad/dungeonchurch&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;open source materials&lt;/a&gt; others can use in their adventures.&lt;/p&gt;
+&lt;p&gt;And as often as possible, you&#39;ll find me riding my &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;bikes&lt;/a&gt; around Oakland &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;chest&quot; href=&quot;https://brad.quest/log/tacos/&quot;&gt;eating tacos&lt;/a&gt;.&lt;/p&gt;
+
+            </content>
+            <link href="https://brad.quest/now/" />
+        </entry>
+        <entry>
+            <title>
                 Contact
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/contact/</id>
             <content type="html">
                 &lt;p&gt;Find me elsewhere on the internet, or contact me directly at &lt;a href=&quot;mailto:brad@bradwenner.com&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;brad@bradwenner.com&lt;/a&gt;&lt;/p&gt;
@@ -736,7 +755,7 @@ UwDrA5iAHHUf8w==
                 About
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/about/</id>
             <content type="html">
                 &lt;p&gt;Not a blog, nor is &lt;a href=&quot;https://www.eastgate.com/garden/Enter.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;a garden&lt;/a&gt; the right metaphor. For me, the internet was first &lt;a href=&quot;https://mudstats.com/World/Mirkwood&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;a dungeon&lt;/a&gt; - a series of dark, twisty passages full of treasures to explore.&lt;/p&gt;
@@ -750,7 +769,7 @@ UwDrA5iAHHUf8w==
 &lt;/blockquote&gt;
 &lt;h1 id=&quot;about-me&quot; tabindex=&quot;-1&quot;&gt;About Me&lt;/h1&gt;
 &lt;p&gt;I&#39;m &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;exit&quot; href=&quot;https://brad.quest/contact/&quot;&gt;Brad&lt;/a&gt;, a freelance artist based in &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#oakland&quot;&gt;#oakland&lt;/a&gt;, CA.&lt;/p&gt;
-&lt;p&gt;I enjoy making things, riding bikes, tinkering with computers, and &lt;a href=&quot;https://dungeon.church/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;playing games&lt;/a&gt; with my friends. See what I&#39;m up to &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;now&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I enjoy making things, riding bikes, tinkering with computers, and &lt;a href=&quot;https://dungeon.church/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;playing games&lt;/a&gt; with my friends. See what I&#39;m up to &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;signpost&quot; href=&quot;https://brad.quest/now/&quot;&gt;now&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&quot;method&quot; tabindex=&quot;-1&quot;&gt;Method&lt;/h1&gt;
 &lt;p&gt;These notes are written in &lt;a href=&quot;https://obsidian.md/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Obsidian&lt;/a&gt;, published with the &lt;a href=&quot;https://dg-docs.ole.dev/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Digital Garden plugin&lt;/a&gt;, and built and &lt;a href=&quot;https://github.com/oakbrad/brad.quest/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;hosted on Github&lt;/a&gt;. The modifications I&#39;ve made to this site are &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;2&quot; href=&quot;https://brad.quest/tech/garden-modifications/&quot;&gt;detailed here&lt;/a&gt;.&lt;/p&gt;
 &lt;hr /&gt;
@@ -760,7 +779,7 @@ UwDrA5iAHHUf8w==
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_1&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_1&quot;&gt; &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;Spotify isn&#39;t Punk&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_2&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_2&quot;&gt; Plex server documentation&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_3&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_3&quot;&gt; &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;2&quot; href=&quot;https://brad.quest/tech/garden-modifications/&quot;&gt;Garden Modifications&lt;/a&gt; ✅ 2025-08-24&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_4&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_4&quot;&gt; &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;Now&lt;/a&gt; page and &lt;a href=&quot;https://nownownow.com/about&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;nownownow&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_4&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_4&quot;&gt; &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;signpost&quot; href=&quot;https://brad.quest/now/&quot;&gt;Now&lt;/a&gt; page and &lt;a href=&quot;https://nownownow.com/about&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;nownownow&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_5&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_5&quot;&gt; &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;Screen Printing&lt;/a&gt; press sketches &amp;amp; notes&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -772,7 +791,7 @@ UwDrA5iAHHUf8w==
                 Taco Log
                 
             </title>
-            <updated>2025-08-24T19:06:56Z</updated>
+            <updated>2025-08-24T23:49:31Z</updated>
             <id>https://brad.quest/log/tacos/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#oakland&quot;&gt;#oakland&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#restaurants&quot;&gt;#restaurants&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#food&quot;&gt;#food&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#lifelog&quot;&gt;#lifelog&lt;/a&gt;&lt;/p&gt;
@@ -790,12 +809,20 @@ UwDrA5iAHHUf8w==
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;https://brad.quest/img/user/System/Uploads/1000003647.jpg&quot; alt=&quot;1000003647.jpg&quot; /&gt;&lt;/td&gt;
+&lt;td&gt;Mariscos los Costa &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#7&quot;&gt;#7&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Al pastor, barbacoa, pescado&lt;/td&gt;
+&lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;8/24&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Really good tortillas and they grill everything nicely. Fish was best. Asada gordita next time.&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;$10&lt;br /&gt;💵&lt;br /&gt;📱&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;https://brad.quest/img/user/System/Uploads/PXL_20250824_003705682.jpg&quot; alt=&quot;PXL_20250824_003705682.jpg&quot; /&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&quot;https://www.yelp.com/biz/el-burrito-supreme-oakland&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;El Burrito Supreme&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Carnitas, asada, birria&lt;/td&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;8/23&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;The carnitas was good but the others were under seasoned. There&#39;s better options in the area.&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;$10.50&lt;br /&gt;💵&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;$10.5&lt;br /&gt;💵&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;https://brad.quest/img/user/System/Uploads/1000003543.jpeg&quot; alt=&quot;1000003543.jpeg&quot; /&gt;&lt;/td&gt;
@@ -819,7 +846,7 @@ UwDrA5iAHHUf8w==
 &lt;td&gt;Al pastor, carnitas, asada especial&lt;/td&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;8/8&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Best al pastor&lt;/strong&gt; in Fruitvale. Really fresh pico de gallo. They take cards now!&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;$13.50&lt;br /&gt;💵&lt;br /&gt;💳&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;$13.5&lt;br /&gt;💵&lt;br /&gt;💳&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;https://brad.quest/img/user/System/Uploads/1000003310-small.jpg&quot; alt=&quot;1000003310-small.jpg&quot; /&gt;&lt;/td&gt;
@@ -835,7 +862,7 @@ UwDrA5iAHHUf8w==
 &lt;td&gt;Al pastor, saudero, asada, pollo&lt;/td&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;8/3&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;strong&gt;Top tier&lt;/strong&gt; with lots of outdoor seating. Food is all amazing, one of the best spots in Fruitvale.&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;$15.50&lt;br /&gt;💳&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;$15.5&lt;br /&gt;💳&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;https://brad.quest/img/user/System/Uploads/1000003261jpg.jpg&quot; alt=&quot;1000003261jpg.jpg&quot; /&gt;&lt;/td&gt;
@@ -843,7 +870,7 @@ UwDrA5iAHHUf8w==
 &lt;td&gt;al pastor, carnitas, asada&lt;/td&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;8/2&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Best spot by the Lake.  Crispy tortillas, generous crema and toppings, good salsa&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;$12.75&lt;br /&gt;📱&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;$12.5&lt;br /&gt;📱&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;https://brad.quest/img/user/System/Uploads/alpastorentrompo.jpg&quot; alt=&quot;alpastorentrompo.jpg&quot; /&gt;&lt;/td&gt;
@@ -859,7 +886,7 @@ UwDrA5iAHHUf8w==
 &lt;td&gt;Tacos chorizo, carnitas, al pastor&lt;/td&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;7/23&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Pretty mid, should&#39;ve done seafood. Camaron empanadas next time&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;💵 $13.50&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;💵 &lt;br /&gt;$14&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;https://brad.quest/img/user/System/Uploads/1000002956.jpg&quot; alt=&quot;1000002956.jpg&quot; /&gt;&lt;/td&gt;
@@ -883,7 +910,7 @@ UwDrA5iAHHUf8w==
 &lt;td&gt;Carnitas burrito&lt;/td&gt;
 &lt;td&gt;&lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;7/10&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Very good, lots of onion. Red sauce is fire roasted. Spicy!&lt;/td&gt;
-&lt;td style=&quot;text-align:center&quot;&gt;$14💳&lt;/td&gt;
+&lt;td style=&quot;text-align:center&quot;&gt;$14&lt;br /&gt;💳&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&quot;text-align:center&quot;&gt;&lt;img src=&quot;https://brad.quest/img/user/System/Uploads/Pasted_image_20250709175845.png&quot; alt=&quot;Pasted_image_20250709175845.png&quot; /&gt;&lt;/td&gt;
