@@ -11,6 +11,7 @@
 ### Resources
 * [PDS on Github](https://github.com/bluesky-social/pds) - the software to run your own PDS
 * [pdsls.dev](https://pdsls.dev/) - handy tool for browsing your PDS
+* [pdsadmin-web](https://mkizka.github.io/pdsadmin-web/) - a web based tool for performing some basic admin functions
 * [PDS Moover](https://pdsmoover.com/) - migrate accounts between PDS
 # Setting up the PDS
 Running the official PDS Docker container is pretty simple. It's pretty lightweight, so you don't need a fancy server to run it. I use the OCI Free Tier for both my server and their object storage (S3). You could definitely do this on something like a [Raspberry Pi](https://amzn.to/4mNYSNL).
@@ -76,7 +77,7 @@ This is an AT Protocol Personal Data Server (aka, an atproto PDS)...
 
 You should now be able to browse your PDS at it's URL with pdsls. [Here's mine](https://pdsls.dev/hermitary.brad.quest). If you haven't set up an account though there won't be any records.
 ## Creating Accounts
-The pds container doesn't include pdsadmin tool, so we'll need to get invite codes via the API. I did this with [Postman](https://postman.co).
+The PDS container doesn't include pdsadmin tool, so we'll need another way to make invite codes. You can use [pdsadmin-web](https://mkizka.github.io/pdsadmin-web/) to do so easily. Before I was aware of that tool, I did an API call via [Postman](https://postman.co):
 
 * **HTTP Request**
 	* **Type:** POST
@@ -86,7 +87,7 @@ The pds container doesn't include pdsadmin tool, so we'll need to get invite cod
 		* **User:** admin
 		* **Pass:** from your pds.env
 
-Once you have the code, you can go to the Bluesky app, enter your PDS and invite, and create an account as normal. Now, moment of truth, make a test post:
+Once you have the code, you can go to the Bluesky app, enter your PDS and invite, and create an account as normal. Now, moment of truth, make a test post with some media:
 
 <center><blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:nkurkqfdnnrplphhjnuksdzl/app.bsky.feed.post/3lwhrb2tedk2z" data-bluesky-cid="bafyreigure4da6zirxcercgp4f7hsufymdqs4vlh4d654ibzpfyddlypsy" data-bluesky-embed-color-mode="dark"><p lang="en">it is me<br><br><a href="https://bsky.app/profile/did:plc:nkurkqfdnnrplphhjnuksdzl/post/3lwhrb2tedk2z?ref_src=embed">[image or embed]</a></p>&mdash; scribe.brad.quest (<a href="https://bsky.app/profile/did:plc:nkurkqfdnnrplphhjnuksdzl?ref_src=embed">@scribe.brad.quest</a>) <a href="https://bsky.app/profile/did:plc:nkurkqfdnnrplphhjnuksdzl/post/3lwhrb2tedk2z?ref_src=embed">Aug 15, 2025 at 2:09 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script></center>
 
