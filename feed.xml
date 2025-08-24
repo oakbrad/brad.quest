@@ -3,14 +3,14 @@
     <title>brad.quest</title>
     <link href="https://brad.quest/feed.xml" rel="self" />
     <link href="https://brad.quest" />
-    <updated>2025-08-24T18:50:46Z</updated>
+    <updated>2025-08-24T19:07:05Z</updated>
     <id>https://brad.quest</id>
         <entry>
             <title>
                 Useful Linux Terminal
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/tech/useful-linux-terminal/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#linux&quot;&gt;#linux&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reference&quot;&gt;#reference&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tech&quot;&gt;#tech&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cli&quot;&gt;#cli&lt;/a&gt;&lt;/p&gt;
@@ -73,7 +73,7 @@ nano $_
                 On AI &amp; Art
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/creative/on-ai-and-art/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#art&quot;&gt;#art&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tech&quot;&gt;#tech&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#ai&quot;&gt;#ai&lt;/a&gt;&lt;/p&gt;
@@ -116,7 +116,7 @@ nano $_
                 Garden Modifications
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/tech/garden-modifications/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#web&quot;&gt;#web&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#diy&quot;&gt;#diy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#software&quot;&gt;#software&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#webdev&quot;&gt;#webdev&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#vibecoding&quot;&gt;#vibecoding&lt;/a&gt;&lt;/p&gt;
@@ -137,7 +137,7 @@ nano $_
 &lt;li&gt;the &lt;a href=&quot;https://github.com/uroybd/topobon/tree/main/src/site/img&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;icon images&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Once I had that working, I began using a &lt;a href=&quot;https://codegen.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;coding agent&lt;/a&gt; to describe the changes I wanted. The forest has a CSS skew to achieve the isometric view, and the icons are portrait format so that they overlap, giving it depth and a sense of being overgrown.&lt;/p&gt;
-&lt;p&gt;I first remove the skew and changed the visualization so it generated a simple table of squares. Then I added square icons from &lt;a href=&quot;https://jaymarksman.itch.io/retro-dungeon-dx&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;this Zelda-style tileset&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I first removed the skew and changed the visualization so it generated a simple table of squares. Then I added square icons from &lt;a href=&quot;https://jaymarksman.itch.io/retro-dungeon-dx&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;this Zelda-style tileset&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I did some research on methods to randomly generate dungeon maps and the answer was &lt;a href=&quot;https://gamedev.stackexchange.com/questions/82059/algorithm-for-procedural-2d-map-with-connected-paths&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;binary space partitioning&lt;/a&gt;, a common algorithm used in rogue-likes. This is the type of thing I would not be able to code on my own, but if you have enough understanding of the problem a coding agent can stitch together the pieces. &lt;em&gt;Modify this function in this file to use this algorithm to return a table...&lt;/em&gt; After throwing some vibe code at it and tweaking the styles and metaphors, I arrived at the first version of the dungeon:&lt;br /&gt;
 &lt;img src=&quot;https://brad.quest/img/user/System/Uploads/dungeon-map-v1.png&quot; alt=&quot;dungeon-map-v1.png&quot; /&gt;&lt;/p&gt;
 &lt;h1 id=&quot;a-href-https-simplelightbox-js-org-target-blank-class-external-link-simple-lightbox-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://simplelightbox.js.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;SimpleLightbox&lt;/a&gt;&lt;/h1&gt;
@@ -188,7 +188,7 @@ fetch(`https://visit-counter.vercel.app/counter?page=${encodedUrl}`)
                 Javascript for Artists
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/creative/javascript-for-artists/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#art&quot;&gt;#art&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#webdev&quot;&gt;#webdev&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#programming&quot;&gt;#programming&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reference&quot;&gt;#reference&lt;/a&gt;&lt;/p&gt;
@@ -216,7 +216,7 @@ fetch(`https://visit-counter.vercel.app/counter?page=${encodedUrl}`)
                 Gridfinity in the Studio
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/tech/gridfinity/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#3dprinting&quot;&gt;#3dprinting&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#studio&quot;&gt;#studio&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#art&quot;&gt;#art&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tools&quot;&gt;#tools&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#diy&quot;&gt;#diy&lt;/a&gt;&lt;/p&gt;
@@ -268,22 +268,24 @@ fetch(`https://visit-counter.vercel.app/counter?page=${encodedUrl}`)
                 Bluesky PDS
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/tech/bluesky-pds/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tech&quot;&gt;#tech&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#selfhost&quot;&gt;#selfhost&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#web&quot;&gt;#web&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://bsky.app/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Bluesky&lt;/a&gt; is built on the open &lt;a href=&quot;https://atproto.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;ATProto&lt;/a&gt; network. The &lt;strong&gt;P&lt;/strong&gt;ersonal &lt;strong&gt;D&lt;/strong&gt;ata &lt;strong&gt;S&lt;/strong&gt;erver is the network unit that serves as a repository for user data, identity, and media on the network.&lt;/p&gt;
 &lt;center&gt;&lt;blockquote class=&quot;bluesky-embed&quot; data-bluesky-uri=&quot;at://did:plc:w4xbfzo7kqfes5zb7r6qv3rw/app.bsky.feed.post/3ludcalt7i224&quot; data-bluesky-cid=&quot;bafyreigkq2j5c4pov7uqzvyijctafsyroyb4ws63hug2djsz7x267s2zva&quot; data-bluesky-embed-color-mode=&quot;dark&quot;&gt;&lt;p lang=&quot;en&quot;&gt;I would just like to inject in everyone&amp;#x27;s imaginations that at least one (1) path to a network of many networks, a fediverse of many fediverses, is a community of many communities. And that might mean more people should found new communities. And tools should be developed to make that easier.&lt;/p&gt;&amp;mdash; Rudy wants revolution. (&lt;a href=&quot;https://bsky.app/profile/did:plc:w4xbfzo7kqfes5zb7r6qv3rw?ref_src=embed&quot;&gt;@rudyfraser.com&lt;/a&gt;) &lt;a href=&quot;https://bsky.app/profile/did:plc:w4xbfzo7kqfes5zb7r6qv3rw/post/3ludcalt7i224?ref_src=embed&quot;&gt;Jul 19, 2025 at 8:39 AM&lt;/a&gt;&lt;/blockquote&gt;&lt;script async=&quot;&quot; src=&quot;https://embed.bsky.app/static/embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/center&gt;
-&lt;h3 id=&quot;resources&quot; tabindex=&quot;-1&quot;&gt;Resources&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/bluesky-social/pds&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;PDS on Github&lt;/a&gt; - the software to run your own PDS&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://pdsls.dev/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;pdsls.dev&lt;/a&gt; - handy tool for browsing your PDS&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://mkizka.github.io/pdsadmin-web/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;pdsadmin-web&lt;/a&gt; - a web based tool for performing some basic admin functions&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://pdsmoover.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;PDS Moover&lt;/a&gt; - migrate accounts between PDS&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blue.mackuba.eu/directory/pdses&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Independent PDS Directory&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;setting-up-the-pds&quot; tabindex=&quot;-1&quot;&gt;Setting up the PDS&lt;/h1&gt;
-&lt;p&gt;Running the official PDS Docker container is pretty simple. It&#39;s pretty lightweight, so you don&#39;t need a fancy server to run it. I use the OCI Free Tier for both my server and their object storage (S3). You could definitely do this on something like a &lt;a href=&quot;https://amzn.to/4mNYSNL&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Raspberry Pi&lt;/a&gt;.&lt;/p&gt;
+**Why self host?**
+* [Protocols, Not Platforms](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech) by [Mike Masnick](https://bsky.app/profile/mmasnick.bsky.social)
+* [Information Civics](https://github.com/pfrazee/infocivics) by [Paul Frazee](https://bsky.app/profile/pfrazee.com)
+* [Social media’s next evolution](https://newpublic.substack.com/p/how-blacksky-grew-to-millions-of) a conversation about [Blacksky](https://blacksky.community/) with [Rudy Fraser](https://bsky.app/profile/rudyfraser.com)
+### Resources
+* [PDS on Github](https://github.com/bluesky-social/pds) - the software to run your own PDS
+* [pdsls.dev](https://pdsls.dev/) - handy tool for browsing your PDS
+* [pdsadmin-web](https://mkizka.github.io/pdsadmin-web/) - a web based tool for performing some basic admin functions
+* [PDS Moover](https://pdsmoover.com/) - migrate accounts between PDS
+* [Independent PDS Directory](https://blue.mackuba.eu/directory/pdses)
+# Setting up the PDS
+Running the official PDS Docker container is pretty simple. It&#39;s pretty lightweight, so you don&#39;t need a fancy server to run it. I use the OCI Free Tier for both my server and their object storage (S3). You could definitely do this on something like a [Raspberry Pi](https://amzn.to/4mNYSNL).
 &lt;p&gt;Before starting this process, you&#39;ll want to &lt;a href=&quot;https://github.com/bluesky-social/pds?tab=readme-ov-file#configure-dns-for-your-domain&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;set up DNS records&lt;/a&gt; with your domain provider and give them some time to propagate.&lt;/p&gt;
 &lt;p&gt;The Github repo has a script you can use to set all this up automatically. You probably just want to do that!&lt;/p&gt;
 &lt;p&gt;I already have a server and proxy running with some other software, so I just need to add the PDS to my existing Docker Compose stack.&lt;/p&gt;
@@ -380,7 +382,7 @@ This is an AT Protocol Personal Data Server (aka, an atproto PDS)...
                 Permethrin Treatment
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/outdoors/permethrin-treatment/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#camping&quot;&gt;#camping&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gear&quot;&gt;#gear&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#hunting&quot;&gt;#hunting&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fishing&quot;&gt;#fishing&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#math&quot;&gt;#math&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#diy&quot;&gt;#diy&lt;/a&gt;&lt;/p&gt;
@@ -427,7 +429,7 @@ For safe application to clothing, it needs to be diluted to 0.5%&lt;/p&gt;
                 Atari 2600
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/tech/gadgets/atari-2600/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#retrogaming&quot;&gt;#retrogaming&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gaming&quot;&gt;#gaming&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#electronics&quot;&gt;#electronics&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gadget&quot;&gt;#gadget&lt;/a&gt;&lt;/p&gt;
@@ -476,7 +478,7 @@ For safe application to clothing, it needs to be diluted to 0.5%&lt;/p&gt;
                 The King in Yellow by Robert Chambers
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/log/books/the-king-in-yellow-by-robert-chambers/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fiction&quot;&gt;#fiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fantasy&quot;&gt;#fantasy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#horror&quot;&gt;#horror&lt;/a&gt;&lt;/p&gt;
@@ -507,7 +509,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 Parable of the Sower by Octavia Butler
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/log/books/parable-of-the-sower-by-octavia-butler/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#scifi&quot;&gt;#scifi&lt;/a&gt;&lt;/p&gt;
@@ -533,7 +535,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 On Writing by Stephen King
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/log/books/on-writing-by-stephen-king/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#writing&quot;&gt;#writing&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#nonfiction&quot;&gt;#nonfiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt;&lt;/p&gt;
@@ -584,7 +586,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 Dungeon Crawler Carl by Matt Dinniman
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/log/books/dungeon-crawler-carl-by-matt-dinniman/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fiction&quot;&gt;#fiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fantasy&quot;&gt;#fantasy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#scifi&quot;&gt;#scifi&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#DNF&quot;&gt;#DNF&lt;/a&gt;&lt;/p&gt;
@@ -601,7 +603,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 Black Earth by Timothy Snyder
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/log/books/black-earth-by-timothy-snyder/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#nonfiction&quot;&gt;#nonfiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#antifascism&quot;&gt;#antifascism&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt;&lt;/p&gt;
@@ -629,7 +631,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 brad.quest
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code&gt;You are standing at the end of a road before a small brick building.
@@ -648,7 +650,7 @@ A small stream flows out of the building and down a gully.
                 Contact
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/contact/</id>
             <content type="html">
                 &lt;p&gt;Find me elsewhere on the internet, or contact me directly at &lt;a href=&quot;mailto:brad@bradwenner.com&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;brad@bradwenner.com&lt;/a&gt;&lt;/p&gt;
@@ -734,7 +736,7 @@ UwDrA5iAHHUf8w==
                 About
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/about/</id>
             <content type="html">
                 &lt;p&gt;Not a blog, nor is &lt;a href=&quot;https://www.eastgate.com/garden/Enter.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;a garden&lt;/a&gt; the right metaphor. For me, the internet was first &lt;a href=&quot;https://mudstats.com/World/Mirkwood&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;a dungeon&lt;/a&gt; - a series of dark, twisty passages full of treasures to explore.&lt;/p&gt;
@@ -770,7 +772,7 @@ UwDrA5iAHHUf8w==
                 Taco Log
                 
             </title>
-            <updated>2025-08-24T18:50:34Z</updated>
+            <updated>2025-08-24T19:06:56Z</updated>
             <id>https://brad.quest/log/tacos/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#oakland&quot;&gt;#oakland&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#restaurants&quot;&gt;#restaurants&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#food&quot;&gt;#food&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#lifelog&quot;&gt;#lifelog&lt;/a&gt;&lt;/p&gt;
