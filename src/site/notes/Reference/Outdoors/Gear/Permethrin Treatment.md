@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Outdoors/Permethrin Treatment.md","permalink":"/outdoors/permethrin-treatment/","noteIcon":"3"}
+{"dg-publish":true,"dg-path":"Outdoors/Permethrin Treatment.md","permalink":"/outdoors/permethrin-treatment/","noteIcon":"stone"}
 ---
 
 #camping #gear #hunting #fishing #math #diy

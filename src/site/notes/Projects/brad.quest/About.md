@@ -17,13 +17,13 @@ I'm [[Projects/brad.quest/Contact\|Brad]], a freelance artist based in #oakland,
 
 I enjoy making things, riding bikes, tinkering with computers, and [playing games](https://dungeon.church) with my friends. See what I'm up to [[Projects/brad.quest/Now\|now]].
 # Method
-These notes are written in [Obsidian](https://obsidian.md/), published with the [Digital Garden plugin](https://dg-docs.ole.dev/), and built and [hosted on Github](https://github.com/oakbrad/brad.quest/). The modifications I've made to this site are [[Reference/Tech/Obsidian/Digital Garden Modifications\|detailed here]].
+These notes are written in [Obsidian](https://obsidian.md/), published with the [Digital Garden plugin](https://dg-docs.ole.dev/), and built and [hosted on Github](https://github.com/oakbrad/brad.quest/). The modifications I've made to this site are [[Reference/Tech/Obsidian/Garden Modifications\|detailed here]].
 
 ----
 ##### todo
 - [x] [[Reference/Tech/Gridfinity in the Studio\|Gridfinity in the Studio]] ✅ 2025-08-08
 - [ ] [[Spotify isn't Punk\|Spotify isn't Punk]]
 - [ ] Plex server documentation
-- [x] [[Reference/Tech/Obsidian/Digital Garden Modifications\|Digital Garden Modifications]] ✅ 2025-08-24
+- [x] [[Reference/Tech/Obsidian/Garden Modifications\|Garden Modifications]] ✅ 2025-08-24
 - [ ] [[Projects/brad.quest/Now\|Now]] page and [nownownow](https://nownownow.com/about)
 - [ ] [[Hustles/Mystery Hound/Screen Printing\|Screen Printing]] press sketches & notes
