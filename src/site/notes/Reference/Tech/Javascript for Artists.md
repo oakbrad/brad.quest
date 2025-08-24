@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Creative/Javascript for Artists.md","permalink":"/creative/javascript-for-artists/","noteIcon":"1"}
+{"dg-publish":true,"dg-path":"Creative/Javascript for Artists.md","permalink":"/creative/javascript-for-artists/","noteIcon":"2"}
 ---
 
 #art #webdev #programming #reference 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Tech/Bluesky PDS.md","permalink":"/tech/bluesky-pds/","noteIcon":"2"}
+{"dg-publish":true,"dg-path":"Tech/Bluesky PDS.md","permalink":"/tech/bluesky-pds/","noteIcon":"3"}
 ---
 
 #tech #selfhost #web 

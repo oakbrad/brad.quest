@@ -3,6 +3,7 @@
 ---
 
 #web #diy #software #webdev #vibecoding
+
 This [[Projects/brad.quest/About\|site]] uses the [Obsidian Digital Garden](https://github.com/oleeskild/Obsidian-Digital-Garden) plugin to publish to the web. Here are my notes on the changes I've made, which are in [my public repo](https://github.com/oakbrad/brad.quest). 
 
 I have a pretty basic knowledge of web development so a lot of this has been an experiment in [[Reference/Tech/Vibecoding\|Vibecoding]].
@@ -21,7 +22,7 @@ I first copied [their code](https://github.com/uroybd/topobon) into my template.
 * [the template](https://github.com/uroybd/topobon/blob/main/src/site/_includes/components/user/index/header/forest.njk) that displays the visualization
 * the [icon images](https://github.com/uroybd/topobon/tree/main/src/site/img)
 
-Once I had that working, I began using a [coding agent](https://codegen.com/) to describe the changes I wanted. The forest has a CSS skew to achieve the isometric view, and the icons are portrait format so that they overlap, giving it an overgrown look. 
+Once I had that working, I began using a [coding agent](https://codegen.com/) to describe the changes I wanted. The forest has a CSS skew to achieve the isometric view, and the icons are portrait format so that they overlap, giving it depth and a sense of being overgrown.
 
 I first remove the skew and changed the visualization so it generated a simple table of squares. Then I added square icons from [this Zelda-style tileset](https://jaymarksman.itch.io/retro-dungeon-dx).
 
