@@ -28,14 +28,52 @@
 
 <script>
   // Function to get the appropriate image source based on the picture element
-  function getAppropriateImageSource(pictureElement) {
+  function getOptimizedImageSource(pictureElement, maxWidth = 700) {
     // If there's no picture element, return null
     if (!pictureElement) return null;
     
-    // First, try to find the original full-size image (usually in the img tag)
+    // First, try to find the source with the specified max-width
+    const sources = pictureElement.querySelectorAll('source');
+    let optimizedSource = null;
+    
+    // Look for the 700px webp source first (preferred format)
+    for (const source of sources) {
+      const media = source.getAttribute('media');
+      const srcset = source.getAttribute('srcset');
+      const type = source.getAttribute('type');
+      
+      if (media && media.includes(`max-width:${maxWidth}px`) && srcset) {
+        // Prefer webp if available
+        if (type && type === 'image/webp') {
+          return srcset;
+        }
+        // Otherwise, store the jpeg version as fallback
+        optimizedSource = srcset;
+      }
+    }
+    
+    // Return the optimized source if found
+    if (optimizedSource) {
+      return optimizedSource;
+    }
+    
+    // Fallback to the img src if no optimized source found
     const imgElement = pictureElement.querySelector('img');
     if (imgElement && imgElement.getAttribute('src')) {
-      // This is the full-size image we want to use for the lightbox
+      return imgElement.getAttribute('src');
+    }
+    
+    return null;
+  }
+  
+  // Function to get the full-size image source (for lightbox)
+  function getFullSizeImageSource(pictureElement) {
+    // If there's no picture element, return null
+    if (!pictureElement) return null;
+    
+    // Get the img element which typically has the full-size source
+    const imgElement = pictureElement.querySelector('img');
+    if (imgElement && imgElement.getAttribute('src')) {
       return imgElement.getAttribute('src');
     }
     
@@ -57,13 +95,20 @@
           
           // Check if the image is inside a picture element
           const pictureElement = img.closest('picture');
-          let fullSizeImageSrc = img.src; // Default to img.src
+          let fullSizeImageSrc = img.src; // Default to img.src for lightbox
           
           if (pictureElement) {
-            // Get the full-size image source from the picture element
-            const appropriateSource = getAppropriateImageSource(pictureElement);
-            if (appropriateSource) {
-              fullSizeImageSrc = appropriateSource;
+            // Get the full-size image source for the lightbox
+            const fullSizeSource = getFullSizeImageSource(pictureElement);
+            if (fullSizeSource) {
+              fullSizeImageSrc = fullSizeSource;
+            }
+            
+            // Get the optimized image source for the img tag
+            const optimizedSource = getOptimizedImageSource(pictureElement, 700);
+            if (optimizedSource && img.src !== optimizedSource) {
+              // Update the img src to use the optimized version
+              img.src = optimizedSource;
             }
           }
           
