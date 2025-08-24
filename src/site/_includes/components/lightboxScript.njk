@@ -27,22 +27,21 @@
 </style>
 
 <script>
-  // Function to get the appropriate image source based on the picture element
-  function getOptimizedImageSource(pictureElement, maxWidth = 700) {
+  // Function to get the optimized image source based on the picture element
+  function getOptimizedImageSource(pictureElement, sizePattern = '-700') {
     // If there's no picture element, return null
     if (!pictureElement) return null;
     
-    // First, try to find the source with the specified max-width
+    // First, try to find the source with the specified size pattern in the filename
     const sources = pictureElement.querySelectorAll('source');
     let optimizedSource = null;
     
     // Look for the 700px webp source first (preferred format)
     for (const source of sources) {
-      const media = source.getAttribute('media');
       const srcset = source.getAttribute('srcset');
       const type = source.getAttribute('type');
       
-      if (media && media.includes(`max-width:${maxWidth}px`) && srcset) {
+      if (srcset && srcset.includes(sizePattern)) {
         // Prefer webp if available
         if (type && type === 'image/webp') {
           return srcset;
@@ -105,7 +104,7 @@
             }
             
             // Get the optimized image source for the img tag
-            const optimizedSource = getOptimizedImageSource(pictureElement, 700);
+            const optimizedSource = getOptimizedImageSource(pictureElement, '-700');
             if (optimizedSource && img.src !== optimizedSource) {
               // Update the img src to use the optimized version
               img.src = optimizedSource;
