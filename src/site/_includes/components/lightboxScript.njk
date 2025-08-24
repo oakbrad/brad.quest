@@ -27,6 +27,58 @@
 </style>
 
 <script>
+  // Function to get the optimized image source based on the picture element
+  function getOptimizedImageSource(pictureElement, sizePattern = '-700') {
+    // If there's no picture element, return null
+    if (!pictureElement) return null;
+    
+    // First, try to find the source with the specified size pattern in the filename
+    const sources = pictureElement.querySelectorAll('source');
+    let optimizedSource = null;
+    
+    // Look for the 700px webp source first (preferred format)
+    for (const source of sources) {
+      const srcset = source.getAttribute('srcset');
+      const type = source.getAttribute('type');
+      
+      if (srcset && srcset.includes(sizePattern)) {
+        // Prefer webp if available
+        if (type && type === 'image/webp') {
+          return srcset;
+        }
+        // Otherwise, store the jpeg version as fallback
+        optimizedSource = srcset;
+      }
+    }
+    
+    // Return the optimized source if found
+    if (optimizedSource) {
+      return optimizedSource;
+    }
+    
+    // Fallback to the img src if no optimized source found
+    const imgElement = pictureElement.querySelector('img');
+    if (imgElement && imgElement.getAttribute('src')) {
+      return imgElement.getAttribute('src');
+    }
+    
+    return null;
+  }
+  
+  // Function to get the full-size image source (for lightbox)
+  function getFullSizeImageSource(pictureElement) {
+    // If there's no picture element, return null
+    if (!pictureElement) return null;
+    
+    // Get the img element which typically has the full-size source
+    const imgElement = pictureElement.querySelector('img');
+    if (imgElement && imgElement.getAttribute('src')) {
+      return imgElement.getAttribute('src');
+    }
+    
+    return null;
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
     // Wait a bit to ensure all images are loaded
     setTimeout(function() {
@@ -40,23 +92,49 @@
             return;
           }
           
-          // Create a link around the image if it doesn't already have one
+          // Check if the image is inside a picture element
+          const pictureElement = img.closest('picture');
+          let fullSizeImageSrc = img.src; // Default to img.src for lightbox
+          
+          if (pictureElement) {
+            // Get the full-size image source for the lightbox
+            const fullSizeSource = getFullSizeImageSource(pictureElement);
+            if (fullSizeSource) {
+              fullSizeImageSrc = fullSizeSource;
+            }
+            
+            // Get the optimized image source for the img tag
+            const optimizedSource = getOptimizedImageSource(pictureElement, '-700');
+            if (optimizedSource && img.src !== optimizedSource) {
+              // Update the img src to use the optimized version
+              img.src = optimizedSource;
+            }
+          }
+          
+          // Create a link around the image or picture element if it doesn't already have one
           if (img.parentNode.tagName !== 'A') {
             const link = document.createElement('a');
-            link.href = img.src; // Set the link to the image source
+            link.href = fullSizeImageSrc; // Set the link to the full-size image source
             link.classList.add('lightbox-image');
             
-            // Replace the image with the link+image
-            img.parentNode.insertBefore(link, img);
-            link.appendChild(img);
+            // If the image is inside a picture element, wrap the picture element
+            if (pictureElement && pictureElement !== img.parentNode) {
+              // Move the link to be the parent of the picture element
+              pictureElement.parentNode.insertBefore(link, pictureElement);
+              link.appendChild(pictureElement);
+            } else {
+              // Replace the image with the link+image
+              img.parentNode.insertBefore(link, img);
+              link.appendChild(img);
+            }
           } else {
             // If image is already inside a link, add the lightbox class to the link
             img.parentNode.classList.add('lightbox-image');
             
             // Store the original link href if it's not pointing to the image
-            if (img.parentNode.href !== img.src) {
+            if (img.parentNode.href !== fullSizeImageSrc) {
               img.parentNode.setAttribute('data-original-href', img.parentNode.href);
-              img.parentNode.href = img.src;
+              img.parentNode.href = fullSizeImageSrc;
             }
           }
         });
@@ -79,4 +157,3 @@
     }, 500);
   });
 </script>
-
