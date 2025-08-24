@@ -1,31 +1,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-<style>
-  /* Style for content images that should have lightbox functionality */
-  .content img {
-    cursor: zoom-in;
-    transition: all 0.3s ease;
-  }
-  
-  /* SimpleLightbox customizations */
-  .sl-overlay {
-    background: rgba(0, 0, 0, 0.8);
-  }
-  
-  .sl-wrapper .sl-close {
-    color: #fff;
-  }
-  
-  .sl-wrapper .sl-navigation button {
-    color: #fff;
-  }
-  
-  .sl-wrapper .sl-counter {
-    color: #fff;
-  }
-</style>
-
 <script>
   // Configuration: List of selectors to ignore for lightbox functionality
   // Add any selectors here to exclude them from the lightbox
@@ -45,6 +20,46 @@
     // Check if the image is inside any of the ignored selectors
     return ignoredSelectors.some(selector => img.closest(selector) !== null);
   }
+
+  // Add CSS dynamically to handle cursor styles
+  document.addEventListener('DOMContentLoaded', function() {
+    // Create style element for our dynamic CSS
+    const style = document.createElement('style');
+    
+    // Basic styles for all content images
+    let css = `
+      /* Style for content images */
+      .content img {
+        transition: all 0.3s ease;
+      }
+      
+      /* Style for lightbox-enabled images */
+      .lightbox-enabled {
+        cursor: zoom-in;
+      }
+      
+      /* SimpleLightbox customizations */
+      .sl-overlay {
+        background: rgba(0, 0, 0, 0.8);
+      }
+      
+      .sl-wrapper .sl-close {
+        color: #fff;
+      }
+      
+      .sl-wrapper .sl-navigation button {
+        color: #fff;
+      }
+      
+      .sl-wrapper .sl-counter {
+        color: #fff;
+      }
+    `;
+    
+    // Add the style to the document
+    style.textContent = css;
+    document.head.appendChild(style);
+  });
   
   // Function to get the optimized image source based on the picture element
   function getOptimizedImageSource(pictureElement, sizePattern = '-700') {
@@ -111,6 +126,9 @@
           if (shouldExcludeImage(img)) {
             return;
           }
+          
+          // Add the lightbox-enabled class to apply cursor: zoom-in
+          img.classList.add('lightbox-enabled');
           
           processedImages++;
           
@@ -179,4 +197,3 @@
     }, 500);
   });
 </script>
-
