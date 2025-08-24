@@ -3,14 +3,14 @@
     <title>brad.quest</title>
     <link href="https://brad.quest/feed.xml" rel="self" />
     <link href="https://brad.quest" />
-    <updated>2025-08-24T18:26:21Z</updated>
+    <updated>2025-08-24T18:35:17Z</updated>
     <id>https://brad.quest</id>
         <entry>
             <title>
                 Useful Linux Terminal
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/tech/useful-linux-terminal/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#linux&quot;&gt;#linux&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reference&quot;&gt;#reference&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tech&quot;&gt;#tech&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#cli&quot;&gt;#cli&lt;/a&gt;&lt;/p&gt;
@@ -73,7 +73,7 @@ nano $_
                 On AI &amp; Art
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/creative/on-ai-and-art/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#art&quot;&gt;#art&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tech&quot;&gt;#tech&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#ai&quot;&gt;#ai&lt;/a&gt;&lt;/p&gt;
@@ -113,10 +113,82 @@ nano $_
         </entry>
         <entry>
             <title>
+                Garden Modifications
+                
+            </title>
+            <updated>2025-08-24T18:35:07Z</updated>
+            <id>https://brad.quest/tech/garden-modifications/</id>
+            <content type="html">
+                &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#web&quot;&gt;#web&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#diy&quot;&gt;#diy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#software&quot;&gt;#software&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#webdev&quot;&gt;#webdev&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#vibecoding&quot;&gt;#vibecoding&lt;/a&gt;&lt;br /&gt;
+This &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;signpost&quot; href=&quot;https://brad.quest/about/&quot;&gt;site&lt;/a&gt; uses the &lt;a href=&quot;https://github.com/oleeskild/Obsidian-Digital-Garden&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Obsidian Digital Garden&lt;/a&gt; plugin to publish to the web. Here are my notes on the changes I&#39;ve made, which are in &lt;a href=&quot;https://github.com/oakbrad/brad.quest&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;my public repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have a pretty basic knowledge of web development so a lot of this has been an experiment in &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;Vibecoding&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;local-development&quot; tabindex=&quot;-1&quot;&gt;Local Development&lt;/h3&gt;
+&lt;p&gt;Clone your repo and make sure you npm installed. For VS Code, I added the &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=eseom.nunjucks-template&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Nunjucks Template extension&lt;/a&gt; for syntax highlighting.&lt;/p&gt;
+&lt;p&gt;From within the project&#39;s folder: &lt;code&gt;npm run build&lt;/code&gt; will generate the static site with &lt;a href=&quot;https://www.11ty.dev/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Eleventy&lt;/a&gt; and &lt;code&gt;npx serve dist&lt;/code&gt; will start a local server.&lt;/p&gt;
+&lt;h1 id=&quot;fixing-rss&quot; tabindex=&quot;-1&quot;&gt;Fixing RSS&lt;/h1&gt;
+&lt;p&gt;One of the first things I noticed was that the RSS feed is broken. This &lt;a href=&quot;https://github.com/oleeskild/obsidian-digital-garden/issues/493#issuecomment-1825034758&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;open issue&lt;/a&gt; on Github describes the fix: edit &lt;code&gt;/src/site/feed.njk&lt;/code&gt; and add another / escape to the end of each link tag on lines 10, 11, 26.&lt;/p&gt;
+&lt;h1 id=&quot;hermitage-s-forest&quot; tabindex=&quot;-1&quot;&gt;Hermitage&#39;s Forest&lt;/h1&gt;
+&lt;p&gt;The author of the plugin has a pretty &lt;a href=&quot;https://hermitage.utsob.me/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;amazing &amp;quot;forest&amp;quot; visualization&lt;/a&gt; on their site. I immediately thought that if I had a similar grid, I could generate a &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;signpost&quot; href=&quot;https://brad.quest/about/&quot;&gt;dungeon&lt;/a&gt; map.&lt;/p&gt;
+&lt;p&gt;I first copied &lt;a href=&quot;https://github.com/uroybd/topobon&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;their code&lt;/a&gt; into my template. You need:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the functions to generate the forest &lt;a href=&quot;https://github.com/uroybd/topobon/blob/main/src/helpers/userUtils.js&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;from userUtils.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the relevant &lt;a href=&quot;https://github.com/uroybd/topobon/blob/main/src/site/styles/custom-style.scss&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;custom css&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/uroybd/topobon/blob/main/src/site/_includes/components/user/index/header/forest.njk&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;the template&lt;/a&gt; that displays the visualization&lt;/li&gt;
+&lt;li&gt;the &lt;a href=&quot;https://github.com/uroybd/topobon/tree/main/src/site/img&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;icon images&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once I had that working, I began using a &lt;a href=&quot;https://codegen.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;coding agent&lt;/a&gt; to describe the changes I wanted. The forest has a CSS skew to achieve the isometric view, and the icons are portrait format so that they overlap, giving it an overgrown look.&lt;/p&gt;
+&lt;p&gt;I first remove the skew and changed the visualization so it generated a simple table of squares. Then I added square icons from &lt;a href=&quot;https://jaymarksman.itch.io/retro-dungeon-dx&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;this Zelda-style tileset&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I did some research on methods to randomly generate dungeon maps and the answer was &lt;a href=&quot;https://gamedev.stackexchange.com/questions/82059/algorithm-for-procedural-2d-map-with-connected-paths&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;binary space partitioning&lt;/a&gt;, a common algorithm used in rogue-likes. This is the type of thing I would not be able to code on my own, but if you have enough understanding of the problem a coding agent can stitch together the pieces. &lt;em&gt;Modify this function in this file to use this algorithm to return a table...&lt;/em&gt; After throwing some vibe code at it and tweaking the styles and metaphors, I arrived at the first version of the dungeon:&lt;br /&gt;
+&lt;img src=&quot;https://brad.quest/img/user/System/Uploads/dungeon-map-v1.png&quot; alt=&quot;dungeon-map-v1.png&quot; /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;a-href-https-simplelightbox-js-org-target-blank-class-external-link-simple-lightbox-a&quot; tabindex=&quot;-1&quot;&gt;&lt;a href=&quot;https://simplelightbox.js.org/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;SimpleLightbox&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;I&#39;ve used this &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;1&quot; href=&quot;https://brad.quest/creative/javascript-for-artists/&quot;&gt;library&lt;/a&gt; in projects before because as the name suggests, it is very simple.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Import &lt;a href=&quot;https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.js&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;the JS&lt;/a&gt; and &lt;a href=&quot;https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.css&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;CSS file&lt;/a&gt; into your template&lt;/li&gt;
+&lt;li&gt;For every image you want to have the lightbox function, it needs to have a link to the image source and a lightbox class assigned to it. ex:&lt;br /&gt;
+&lt;code&gt;&amp;lt;a href=highres.jpeg class=lightbox&amp;gt;&amp;lt;img src=responsive.jpeg&amp;gt;&amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;You must initialize the lightbox to look for the images with that class. ex:&lt;br /&gt;
+&lt;code&gt;&amp;lt;script&amp;gt;var lightbox = new SimpleLightbox(&#39;a.lightbox&#39;, {})&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;One problem I found with this is that &lt;a href=&quot;https://github.com/andreknieriem/simplelightbox/issues/153&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;SimpleLightbox does not support modern &lt;code&gt;&amp;lt;picture&amp;gt;&lt;/code&gt; elements&lt;/a&gt; which is what the DG plugin uses to serve responsive images. I also wanted it to apply to my whole site without having to do this on every page manually. So I had an agent write a script that adds the class to all images (excluding my dungeon map) and if available, sets the image&#39;s source to a more reasonable sized one from the picture element. &lt;a href=&quot;https://github.com/oakbrad/brad.quest/blob/main/src/site/_includes/components/lightboxScript.njk&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The script is here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1 id=&quot;visitor-counter&quot; tabindex=&quot;-1&quot;&gt;Visitor Counter&lt;/h1&gt;
+&lt;p&gt;I got this idea from &lt;a href=&quot;https://www.paologabriel.com/swamp/count-page-visits/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Paolo Gabriel&lt;/a&gt;, who used the excellent &lt;a href=&quot;https://github.com/devXprite/visit-counter&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;visit-counter&lt;/a&gt; project to accomplish this. I put &lt;a href=&quot;https://github.com/oakbrad/brad.quest/blob/main/src/site/_includes/components/user/common/footer/counter.njk&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;a simple script in my template&#39;s footer&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;&amp;lt;hr&amp;gt;&amp;lt;center&amp;gt;
+    &amp;lt;small&amp;gt;Visits: &amp;lt;span id=&amp;quot;visit-counter&amp;quot;&amp;gt;&amp;lt;code&amp;gt;  &amp;lt;/code&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/small&amp;gt;
+&amp;lt;/center&amp;gt;
+&amp;lt;script&amp;gt;
+// Get the current page URL (host + pathname) for consistent counting
+const currentUrl = window.location.host + window.location.pathname;
+const encodedUrl = encodeURIComponent(currentUrl);
+
+fetch(`https://visit-counter.vercel.app/counter?page=${encodedUrl}`)
+  .then(response =&amp;gt; response.text())
+  .then(count =&amp;gt; {
+    console.log(&#39;Visit count:&#39;, count);
+    // Optional: Display the count on your page
+    const counterElement = document.getElementById(&#39;visit-counter&#39;);
+    if (counterElement) {
+      counterElement.innerHTML = `&amp;lt;code&amp;gt; ${count} &amp;lt;/code&amp;gt;`;
+    }
+  })
+  .catch(error =&amp;gt; {
+    console.error(&#39;Error fetching visit count:&#39;, error);
+  });
+  &amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;webmentions&quot; tabindex=&quot;-1&quot;&gt;Webmentions&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!WARNING] Todo&lt;/p&gt;
+&lt;/blockquote&gt;
+
+            </content>
+            <link href="https://brad.quest/tech/garden-modifications/" />
+        </entry>
+        <entry>
+            <title>
                 Javascript for Artists
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/creative/javascript-for-artists/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#art&quot;&gt;#art&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#webdev&quot;&gt;#webdev&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#programming&quot;&gt;#programming&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reference&quot;&gt;#reference&lt;/a&gt;&lt;/p&gt;
@@ -144,7 +216,7 @@ nano $_
                 Gridfinity in the Studio
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/tech/gridfinity/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#3dprinting&quot;&gt;#3dprinting&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#studio&quot;&gt;#studio&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#art&quot;&gt;#art&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tools&quot;&gt;#tools&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#diy&quot;&gt;#diy&lt;/a&gt;&lt;/p&gt;
@@ -196,7 +268,7 @@ nano $_
                 Bluesky PDS
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/tech/bluesky-pds/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#tech&quot;&gt;#tech&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#selfhost&quot;&gt;#selfhost&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#web&quot;&gt;#web&lt;/a&gt;&lt;/p&gt;
@@ -308,7 +380,7 @@ This is an AT Protocol Personal Data Server (aka, an atproto PDS)...
                 Permethrin Treatment
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/outdoors/permethrin-treatment/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#camping&quot;&gt;#camping&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gear&quot;&gt;#gear&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#hunting&quot;&gt;#hunting&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fishing&quot;&gt;#fishing&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#math&quot;&gt;#math&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#diy&quot;&gt;#diy&lt;/a&gt;&lt;/p&gt;
@@ -355,7 +427,7 @@ For safe application to clothing, it needs to be diluted to 0.5%&lt;/p&gt;
                 Atari 2600
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/tech/gadgets/atari-2600/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#retrogaming&quot;&gt;#retrogaming&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gaming&quot;&gt;#gaming&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#electronics&quot;&gt;#electronics&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#gadget&quot;&gt;#gadget&lt;/a&gt;&lt;/p&gt;
@@ -404,7 +476,7 @@ For safe application to clothing, it needs to be diluted to 0.5%&lt;/p&gt;
                 The King in Yellow by Robert Chambers
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/log/books/the-king-in-yellow-by-robert-chambers/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fiction&quot;&gt;#fiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fantasy&quot;&gt;#fantasy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#horror&quot;&gt;#horror&lt;/a&gt;&lt;/p&gt;
@@ -435,7 +507,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 Parable of the Sower by Octavia Butler
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/log/books/parable-of-the-sower-by-octavia-butler/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#scifi&quot;&gt;#scifi&lt;/a&gt;&lt;/p&gt;
@@ -461,7 +533,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 On Writing by Stephen King
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/log/books/on-writing-by-stephen-king/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#writing&quot;&gt;#writing&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#nonfiction&quot;&gt;#nonfiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt;&lt;/p&gt;
@@ -512,7 +584,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 Dungeon Crawler Carl by Matt Dinniman
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/log/books/dungeon-crawler-carl-by-matt-dinniman/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fiction&quot;&gt;#fiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#fantasy&quot;&gt;#fantasy&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#scifi&quot;&gt;#scifi&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#DNF&quot;&gt;#DNF&lt;/a&gt;&lt;/p&gt;
@@ -529,7 +601,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 Black Earth by Timothy Snyder
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/log/books/black-earth-by-timothy-snyder/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#books&quot;&gt;#books&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#reading&quot;&gt;#reading&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#log&quot;&gt;#log&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#nonfiction&quot;&gt;#nonfiction&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#antifascism&quot;&gt;#antifascism&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#read2025&quot;&gt;#read2025&lt;/a&gt;&lt;/p&gt;
@@ -557,7 +629,7 @@ Obviously, the reason to read this is the primordial connection to Lovecraft&#39
                 brad.quest
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/</id>
             <content type="html">
                 &lt;pre&gt;&lt;code&gt;You are standing at the end of a road before a small brick building.
@@ -576,7 +648,7 @@ A small stream flows out of the building and down a gully.
                 Contact
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/contact/</id>
             <content type="html">
                 &lt;p&gt;Find me elsewhere on the internet, or contact me directly at &lt;a href=&quot;mailto:brad@bradwenner.com&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;brad@bradwenner.com&lt;/a&gt;&lt;/p&gt;
@@ -662,7 +734,7 @@ UwDrA5iAHHUf8w==
                 About
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/about/</id>
             <content type="html">
                 &lt;p&gt;Not a blog, nor is &lt;a href=&quot;https://www.eastgate.com/garden/Enter.html&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;a garden&lt;/a&gt; the right metaphor. For me, the internet was first &lt;a href=&quot;https://mudstats.com/World/Mirkwood&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;a dungeon&lt;/a&gt; - a series of dark, twisty passages full of treasures to explore.&lt;/p&gt;
@@ -678,14 +750,14 @@ UwDrA5iAHHUf8w==
 &lt;p&gt;I&#39;m &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;exit&quot; href=&quot;https://brad.quest/contact/&quot;&gt;Brad&lt;/a&gt;, a freelance artist based in &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#oakland&quot;&gt;#oakland&lt;/a&gt;, CA.&lt;/p&gt;
 &lt;p&gt;I enjoy making things, riding bikes, tinkering with computers, and &lt;a href=&quot;https://dungeon.church/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;playing games&lt;/a&gt; with my friends. See what I&#39;m up to &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;now&lt;/a&gt;.&lt;/p&gt;
 &lt;h1 id=&quot;method&quot; tabindex=&quot;-1&quot;&gt;Method&lt;/h1&gt;
-&lt;p&gt;These notes are written in &lt;a href=&quot;https://obsidian.md/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Obsidian&lt;/a&gt;, published with the &lt;a href=&quot;https://dg-docs.ole.dev/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Digital Garden plugin&lt;/a&gt;, and built and &lt;a href=&quot;https://github.com/oakbrad/brad.quest/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;hosted on Github&lt;/a&gt;. The modifications I&#39;ve made to this site are &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;detailed here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;These notes are written in &lt;a href=&quot;https://obsidian.md/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Obsidian&lt;/a&gt;, published with the &lt;a href=&quot;https://dg-docs.ole.dev/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Digital Garden plugin&lt;/a&gt;, and built and &lt;a href=&quot;https://github.com/oakbrad/brad.quest/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;hosted on Github&lt;/a&gt;. The modifications I&#39;ve made to this site are &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;2&quot; href=&quot;https://brad.quest/tech/garden-modifications/&quot;&gt;detailed here&lt;/a&gt;.&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h5 id=&quot;todo&quot; tabindex=&quot;-1&quot;&gt;todo&lt;/h5&gt;
 &lt;ul class=&quot;task-list&quot;&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_0&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_0&quot;&gt; &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;3&quot; href=&quot;https://brad.quest/tech/gridfinity/&quot;&gt;Gridfinity in the Studio&lt;/a&gt; ✅ 2025-08-08&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_1&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_1&quot;&gt; &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;Spotify isn&#39;t Punk&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_2&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_2&quot;&gt; Plex server documentation&lt;/label&gt;&lt;/li&gt;
-&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_3&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_3&quot;&gt; &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;Digital Garden Modifications&lt;/a&gt; ✅ 2025-08-24&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_3&quot; checked=&quot;true&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_3&quot;&gt; &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;2&quot; href=&quot;https://brad.quest/tech/garden-modifications/&quot;&gt;Garden Modifications&lt;/a&gt; ✅ 2025-08-24&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_4&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_4&quot;&gt; &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;Now&lt;/a&gt; page and &lt;a href=&quot;https://nownownow.com/about&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;nownownow&lt;/a&gt;&lt;/label&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; id=&quot;cbx_5&quot; disabled=&quot;true&quot; /&gt;&lt;label for=&quot;cbx_5&quot;&gt; &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://brad.quest/404&quot; target=&quot;&quot;&gt;Screen Printing&lt;/a&gt; press sketches &amp;amp; notes&lt;/label&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -698,7 +770,7 @@ UwDrA5iAHHUf8w==
                 Taco Log
                 
             </title>
-            <updated>2025-08-24T18:26:08Z</updated>
+            <updated>2025-08-24T18:35:07Z</updated>
             <id>https://brad.quest/log/tacos/</id>
             <content type="html">
                 &lt;p&gt;&lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#oakland&quot;&gt;#oakland&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#restaurants&quot;&gt;#restaurants&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#food&quot;&gt;#food&lt;/a&gt; &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#lifelog&quot;&gt;#lifelog&lt;/a&gt;&lt;/p&gt;

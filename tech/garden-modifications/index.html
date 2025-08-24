@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Gridfinity in the Studio</title>
+<title>Garden Modifications</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -164,11 +164,11 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="2" style="text-decoration:none" class="filename" href="/tech/garden-modifications/">Garden Modifications </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="2" style="text-decoration:none" class="filename" href="/tech/garden-modifications/">Garden Modifications </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><a data-note-icon="3" style="text-decoration:none" class="filename" href="/tech/gridfinity/">Gridfinity in the Studio </a>
+<div @click.stop class="notelink"><a data-note-icon="3" style="text-decoration:none" class="filename" href="/tech/gridfinity/">Gridfinity in the Studio </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -211,48 +211,70 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-08-24T18:35:17.161Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-08-24T18:35:17.161Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-08-24T18:35:17.161Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="3">Gridfinity in the Studio</h1>
+<h1 data-note-icon="2">Garden Modifications</h1>
 <div class="header-meta">
 </div>
 </header>
-<p><a class="tag" onclick="toggleTagSearch(this)" data-content="#3dprinting">#3dprinting</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#studio">#studio</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#art">#art</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#tools">#tools</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#diy">#diy</a></p>
-<p><a href="https://gridfinity.xyz/" target="_blank" class="external-link">Gridfinity</a> is a <a href="https://www.printables.com/search/models?ctx=models&amp;q=gridfinity" target="_blank" class="external-link">popular</a>, <a class="internal-link is-unresolved" href="/404" target="">printable</a> organizer system based on an open source <a href="https://gridfinity.xyz/specification/" target="_blank" class="external-link">spec</a> of <code>42x42x7mm</code> boxes by <a href="https://www.youtube.com/c/ZackFreedman" target="_blank" class="external-link">Zach Freedman</a>. I use this system extensively in my studio.</p>
-<h1 id="gridfinity-basics" tabindex="-1">Gridfinity Basics</h1>
-<h2 id="baseplates" tabindex="-1">Baseplates</h2>
-<p>I use these baseplates:</p>
+<p><a class="tag" onclick="toggleTagSearch(this)" data-content="#web">#web</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#diy">#diy</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#software">#software</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#webdev">#webdev</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#vibecoding">#vibecoding</a><br>
+This <a class="internal-link" target="" data-note-icon="signpost" href="/about/">site</a> uses the <a href="https://github.com/oleeskild/Obsidian-Digital-Garden" target="_blank" class="external-link">Obsidian Digital Garden</a> plugin to publish to the web. Here are my notes on the changes I've made, which are in <a href="https://github.com/oakbrad/brad.quest" target="_blank" class="external-link">my public repo</a>.</p>
+<p>I have a pretty basic knowledge of web development so a lot of this has been an experiment in <a class="internal-link is-unresolved" href="/404" target="">Vibecoding</a>.</p>
+<h3 id="local-development" tabindex="-1">Local Development</h3>
+<p>Clone your repo and make sure you npm installed. For VS Code, I added the <a href="https://marketplace.visualstudio.com/items?itemName=eseom.nunjucks-template" target="_blank" class="external-link">Nunjucks Template extension</a> for syntax highlighting.</p>
+<p>From within the project's folder: <code>npm run build</code> will generate the static site with <a href="https://www.11ty.dev/" target="_blank" class="external-link">Eleventy</a> and <code>npx serve dist</code> will start a local server.</p>
+<h1 id="fixing-rss" tabindex="-1">Fixing RSS</h1>
+<p>One of the first things I noticed was that the RSS feed is broken. This <a href="https://github.com/oleeskild/obsidian-digital-garden/issues/493#issuecomment-1825034758" target="_blank" class="external-link">open issue</a> on Github describes the fix: edit <code>/src/site/feed.njk</code> and add another / escape to the end of each link tag on lines 10, 11, 26.</p>
+<h1 id="hermitage-s-forest" tabindex="-1">Hermitage's Forest</h1>
+<p>The author of the plugin has a pretty <a href="https://hermitage.utsob.me/" target="_blank" class="external-link">amazing &quot;forest&quot; visualization</a> on their site. I immediately thought that if I had a similar grid, I could generate a <a class="internal-link" target="" data-note-icon="signpost" href="/about/">dungeon</a> map.</p>
+<p>I first copied <a href="https://github.com/uroybd/topobon" target="_blank" class="external-link">their code</a> into my template. You need:</p>
 <ul>
-<li><a href="https://www.printables.com/model/250550-gridfinity-magnet-light-baseplate" target="_blank" class="external-link">Magnet-Light Baseplates</a> sturdy &amp; reasonable print time that retains the magnet/screw holes</li>
-<li><a href="https://www.printables.com/model/1117131-gridfinity-ultralight-base" target="_blank" class="external-link">Ultralight Skeleton</a> minimum amount of material</li>
+<li>the functions to generate the forest <a href="https://github.com/uroybd/topobon/blob/main/src/helpers/userUtils.js" target="_blank" class="external-link">from userUtils.js</a></li>
+<li>the relevant <a href="https://github.com/uroybd/topobon/blob/main/src/site/styles/custom-style.scss" target="_blank" class="external-link">custom css</a></li>
+<li><a href="https://github.com/uroybd/topobon/blob/main/src/site/_includes/components/user/index/header/forest.njk" target="_blank" class="external-link">the template</a> that displays the visualization</li>
+<li>the <a href="https://github.com/uroybd/topobon/tree/main/src/site/img" target="_blank" class="external-link">icon images</a></li>
 </ul>
-<p>When butting baseplates together into a larger grid, I find it helpful to run <a href="https://amzn.to/46t4ecl" target="_blank" class="external-link">a deburring tool</a> around the outer edges.</p>
-<h2 id="bins" tabindex="-1">Bins</h2>
-<p>A few notable improvements on Zach's original collection of bins:</p>
-<ul>
-<li><a href="https://www.printables.com/model/353012-gridfinity-enhanced-vase-bins-wth-labels-90-models/comments" target="_blank" class="external-link">Vase Mode Bins</a> Fastest possible bin</li>
-<li><a href="https://thangs.com/designer/ImprovedByDesign/3d-model/Corrugated%2520Gridfinity%2520Light%2520Bins%2520%2528No%2520vase%2520mode%2529-1091242" target="_blank" class="external-link">Corrugated Light Bins</a> Fast &amp; strong bins</li>
-<li><a href="https://thangs.com/designer/Landrum%20Engineering/3d-model/Gridfinity%20Octa%20Windowed%20Bins%202x2x12-886840" target="_blank" class="external-link">Glass Window Bins</a> an improved <a href="https://amzn.to/3J2EYQs" target="_blank" class="external-link">microscope slide</a> design</li>
-<li><a href="https://www.printables.com/model/278947-gridfinity-parametric-bottle-with-knurledfluted-ca" target="_blank" class="external-link">Parametric Bottles</a> with caps</li>
-</ul>
-<h2 id="other-essentials" tabindex="-1">Other Essentials</h2>
-<p>Not bins or baseplates, but things I make extensive use of:</p>
-<ul>
-<li><a href="https://thangs.com/designer/atucom/3d-model/Gridfinity%2520Transport%2520Tray-65965" target="_blank" class="external-link">Transport Trays</a> I group projects by tray and then can move them easily between shelf and workspace.</li>
-<li><a href="https://www.printables.com/model/284027-gen2-gridfinity-drawers-standard-legacy" target="_blank" class="external-link">Gridfinity Under Counter Drawers</a> over designed with tight tolerances, but they work really well. This designer has made <a href="https://www.jerrari3d.com/gen2-modular-system/instructions" target="_blank" class="external-link">an entire system</a> of these.</li>
-<li><a href="https://www.printables.com/model/503548-gridfinity-drawer" target="_blank" class="external-link">Gridfinity Stackable Drawers</a> good for desks or vertical storage. I made a <a href="https://www.printables.com/model/624484-gridfinity-2x2-drawer-with-microscope-slide-window/comments" target="_blank" class="external-link">glass slide version</a> of the drawer bin.</li>
-</ul>
-<h1 id="parametric-gridfinity" tabindex="-1">Parametric Gridfinity</h1>
-<p>Tools for generating bins, bases, and accessories.</p>
-<ul>
-<li><a href="https://docs.ostat.com/docs/openscad/gridfinity-extended" target="_blank" class="external-link">Gridfinity Extended</a> and <a href="https://github.com/kennetek/gridfinity-rebuilt-openscad" target="_blank" class="external-link">Gridfinity Rebuilt</a> are both <a href="https://openscad.org/" target="_blank" class="external-link">OpenSCAD</a> implementations</li>
-<li><a href="https://outline.georgs.lv/" target="_blank" class="external-link">Gridfinity toolbox from photo</a></li>
-<li><a href="https://gridfinity.perplexinglabs.com/" target="_blank" class="external-link">Gridfinity Generator</a> by Perplexing Labs</li>
-<li><a href="https://gridfinitygenerator.com" target="_blank" class="external-link">Gridfinity Box, Baseplate, and Cutout Generator</a></li>
-<li><a href="https://gridfinity.bouwens.co/" target="_blank" class="external-link">Gridfinity Creator</a></li>
-<li><a href="https://www.printables.com/model/278947-gridfinity-parametric-bottle-with-knurledfluted-ca" target="_blank" class="external-link">Parametric Bottles</a></li>
-</ul>
-<p>There is also a Gridfinity <a href="https://apps.autodesk.com/FUSION/en/Detail/Index?id=7197558650811789" target="_blank" class="external-link">Fusion360 App</a> and the python library <a href="https://github.com/michaelgale/cq-gridfinity" target="_blank" class="external-link">cq-gridfinity</a></p>
-<h1 id="case-studies" tabindex="-1">Case Studies</h1>
-<div class="callout" data-callout="attention"><div class="callout-title"><div class="callout-title-inner"> WIP</div></div></div>
+<p>Once I had that working, I began using a <a href="https://codegen.com/" target="_blank" class="external-link">coding agent</a> to describe the changes I wanted. The forest has a CSS skew to achieve the isometric view, and the icons are portrait format so that they overlap, giving it an overgrown look.</p>
+<p>I first remove the skew and changed the visualization so it generated a simple table of squares. Then I added square icons from <a href="https://jaymarksman.itch.io/retro-dungeon-dx" target="_blank" class="external-link">this Zelda-style tileset</a>.</p>
+<p>I did some research on methods to randomly generate dungeon maps and the answer was <a href="https://gamedev.stackexchange.com/questions/82059/algorithm-for-procedural-2d-map-with-connected-paths" target="_blank" class="external-link">binary space partitioning</a>, a common algorithm used in rogue-likes. This is the type of thing I would not be able to code on my own, but if you have enough understanding of the problem a coding agent can stitch together the pieces. <em>Modify this function in this file to use this algorithm to return a table...</em> After throwing some vibe code at it and tweaking the styles and metaphors, I arrived at the first version of the dungeon:<br>
+<picture src="/img/user/System/Uploads/dungeon-map-v1.png" alt="dungeon-map-v1.png"><source media="(max-width:480px)" srcset="/img/optimized/XDxlQj8Zjv-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/XDxlQj8Zjv-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/XDxlQj8Zjv-612.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/XDxlQj8Zjv-612.jpeg"><img class="" src="/img/user/System/Uploads/dungeon-map-v1.png" alt="dungeon-map-v1.png" width=""></picture></p>
+<h1 id="a-href-https-simplelightbox-js-org-target-blank-class-external-link-simple-lightbox-a" tabindex="-1"><a href="https://simplelightbox.js.org/" target="_blank" class="external-link">SimpleLightbox</a></h1>
+<p>I've used this <a class="internal-link" target="" data-note-icon="1" href="/creative/javascript-for-artists/">library</a> in projects before because as the name suggests, it is very simple.</p>
+<ol>
+<li>Import <a href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.js" target="_blank" class="external-link">the JS</a> and <a href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.2/simple-lightbox.min.css" target="_blank" class="external-link">CSS file</a> into your template</li>
+<li>For every image you want to have the lightbox function, it needs to have a link to the image source and a lightbox class assigned to it. ex:<br>
+<code>&lt;a href=highres.jpeg class=lightbox&gt;&lt;img src=responsive.jpeg&gt;&lt;/a&gt;</code></li>
+<li>You must initialize the lightbox to look for the images with that class. ex:<br>
+<code>&lt;script&gt;var lightbox = new SimpleLightbox('a.lightbox', {})&lt;/script&gt;</code></li>
+</ol>
+<p>One problem I found with this is that <a href="https://github.com/andreknieriem/simplelightbox/issues/153" target="_blank" class="external-link">SimpleLightbox does not support modern <code>&lt;picture&gt;</code> elements</a> which is what the DG plugin uses to serve responsive images. I also wanted it to apply to my whole site without having to do this on every page manually. So I had an agent write a script that adds the class to all images (excluding my dungeon map) and if available, sets the image's source to a more reasonable sized one from the picture element. <a href="https://github.com/oakbrad/brad.quest/blob/main/src/site/_includes/components/lightboxScript.njk" target="_blank" class="external-link">The script is here</a>.</p>
+<h1 id="visitor-counter" tabindex="-1">Visitor Counter</h1>
+<p>I got this idea from <a href="https://www.paologabriel.com/swamp/count-page-visits/" target="_blank" class="external-link">Paolo Gabriel</a>, who used the excellent <a href="https://github.com/devXprite/visit-counter" target="_blank" class="external-link">visit-counter</a> project to accomplish this. I put <a href="https://github.com/oakbrad/brad.quest/blob/main/src/site/_includes/components/user/common/footer/counter.njk" target="_blank" class="external-link">a simple script in my template's footer</a>.</p>
+<pre><code class="language-javascript">&lt;hr&gt;&lt;center&gt;
+    &lt;small&gt;Visits: &lt;span id=&quot;visit-counter&quot;&gt;&lt;code&gt;  &lt;/code&gt;&lt;/span&gt;&lt;/small&gt;
+&lt;/center&gt;
+&lt;script&gt;
+// Get the current page URL (host + pathname) for consistent counting
+const currentUrl = window.location.host + window.location.pathname;
+const encodedUrl = encodeURIComponent(currentUrl);
+
+fetch(`https://visit-counter.vercel.app/counter?page=${encodedUrl}`)
+  .then(response =&gt; response.text())
+  .then(count =&gt; {
+    console.log('Visit count:', count);
+    // Optional: Display the count on your page
+    const counterElement = document.getElementById('visit-counter');
+    if (counterElement) {
+      counterElement.innerHTML = `&lt;code&gt; ${count} &lt;/code&gt;`;
+    }
+  })
+  .catch(error =&gt; {
+    console.error('Error fetching visit count:', error);
+  });
+  &lt;/script&gt;
+</code></pre>
+<h1 id="webmentions" tabindex="-1">Webmentions</h1>
+<div class="callout" data-callout="warning"><div class="callout-title"><div class="callout-title-inner"> Todo</div></div></div>
 </main>
 <script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
 <script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
