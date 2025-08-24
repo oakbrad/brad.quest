@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Contact</title>
+<title>On AI &amp; Art</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -77,7 +77,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><a data-note-icon="1" style="text-decoration:none" class="filename" href="/creative/on-ai-and-art/">On AI &amp; Art </a>
+<div @click.stop class="notelink active-note"><a data-note-icon="1" style="text-decoration:none" class="filename" href="/creative/on-ai-and-art/">On AI &amp; Art </a>
 </div>
 </div>
 </div>
@@ -178,7 +178,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="">
-<div @click.stop class="notelink active-note"><a data-note-icon="exit" style="text-decoration:none" class="filename" href="/contact/">Contact </a>
+<div @click.stop class="notelink"><a data-note-icon="exit" style="text-decoration:none" class="filename" href="/contact/">Contact </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="">
@@ -211,84 +211,41 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-08-24T18:25:44.286Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-08-24T18:25:44.286Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-08-24T18:25:44.286Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="exit">Contact</h1>
+<h1 data-note-icon="1">On AI &amp; Art</h1>
 <div class="header-meta">
 </div>
 </header>
-<p>Find me elsewhere on the internet, or contact me directly at <a href="mailto:brad@bradwenner.com" target="_blank" class="external-link">brad@bradwenner.com</a></p>
-<h1 id="professional" tabindex="-1">Professional</h1>
+<p><a class="tag" onclick="toggleTagSearch(this)" data-content="#art">#art</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#tech">#tech</a> <a class="tag" onclick="toggleTagSearch(this)" data-content="#ai">#ai</a></p>
+<blockquote>
+<p><em>&quot;Art does not die because there is no art; it dies because there is too much of it.&quot;</em></p>
+<p><strong>-Baudrillard</strong>, <em><a href="https://library.brads.house/index.php?page=13&amp;id=844#cover" target="_blank" class="external-link">The Conspiracy of Art</a></em></p>
+</blockquote>
+<hr>
 <ul>
-<li><a href="https://www.bradwenner.com/" target="_blank" class="external-link">Brad Wenner Photography</a> San Francisco based photographer</li>
-<li><a href="https://bradwenner.digital/" target="_blank" class="external-link">Brad Wenner Digital</a> Image Technician &amp; digital production support</li>
-<li>LinkedIn: <a href="https://www.linkedin.com/in/bradwenner/" target="_blank" class="external-link">bradwenner</a></li>
-<li>Instagram: <a href="https://www.instagram.com/bradwenner.digital/" target="_blank" class="external-link">@bradwenner.digital</a></li>
+<li><a href="https://arxiv.org/abs/2212.03551" target="_blank" class="external-link">Talking About Large Language Models</a> by Murray Shanahan</li>
+<li><a href="https://maggieappleton.com/ai-dark-forest" target="_blank" class="external-link">The Dark Forest and Generative AI</a> by Maggie Appleton</li>
 </ul>
-<h2 id="personal" tabindex="-1">Personal</h2>
+<blockquote>
+<p><em>&quot;Our new challenge as little snowflake humans will be to prove we <strong>aren’t</strong> language models. It’s the reverse <a href="https://en.wikipedia.org/wiki/Turing_test" target="_blank" class="external-link">turing test</a>.&quot;</em></p>
+</blockquote>
 <ul>
-<li>Github: <a href="https://github.com/oakbrad" target="_blank" class="external-link">oakbrad</a></li>
-<li>Discord: <a href="discord.com/users/367504021965242371" target="_blank" class="external-link">@diybrad</a></li>
-<li>Bluesky: <a href="https://bsky.app/profile/bradwenner.photo" target="_blank" class="external-link">@bradwenner.photo</a></li>
-<li>Strava: <a href="https://www.strava.com/athletes/2245566" target="_blank" class="external-link">bradwenner</a></li>
-<li>iNaturalist: <a href="https://www.inaturalist.org/people/726158" target="_blank" class="external-link">bradwenner</a></li>
-<li>LastFM: <a href="https://www.last.fm/user/diybrad" target="_blank" class="external-link">diybrad</a></li>
-<li>Plex: <a href="https://l.plex.tv/LkgD8rt" target="_blank" class="external-link">bradwenner</a></li>
-<li>Letterboxd: <a href="https://letterboxd.com/bradwenner/" target="_blank" class="external-link">bradwenner</a></li>
+<li><a href="https://jmsdnns.com/tech/algo-underground/" target="_blank" class="external-link">Algorithmic Underground</a></li>
+<li><a href="https://www.garbageday.email/p/finding-ai-line" target="_blank" class="external-link">Finding the AI Line</a> by Ryan Broderick</li>
 </ul>
-<h3 id="printmaking" tabindex="-1">Printmaking</h3>
+<blockquote>
+<p><em>&quot;<strong>[The AI backlash]</strong> has led to a certain irony for creators who want to, in a sense, get away with using AI. At least as it exists right now. Like Glorb, they have to find a way to use it that is both impossible to achieve without it, and also not reliant on it as a shortcut. It has to make people <a href="https://www.tiktok.com/t/ZTL5uXtkN/?utm_source=www.garbageday.email&amp;utm_medium=referral&amp;utm_campaign=finding-the-ai-line" target="_blank" class="external-link">comment</a>, <strong>“This is what AI was actually for.”</strong> And it’s these edge cases that interested parties should keep an eye on.&quot;</em></p>
+</blockquote>
+<center>
+<iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/pL9o_BwSN-o?si=UVMPFtyNNATKhS5Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 <ul>
-<li><a href="https://mysteryhound.press/" target="_blank" class="external-link">Mystery Hound Press</a> screen printing</li>
-<li>Etsy: <a href="https://mysteryhoundpress.etsy.com/" target="_blank" class="external-link">mysteryhoundpress</a></li>
-<li>Gumroad: <a href="https://mysteryhoundpress.gumroad.com/" target="_blank" class="external-link">mysteryhoundpress</a></li>
-<li>Instagram: <a href="https://www.instagram.com/mysteryhound.press" target="_blank" class="external-link">@mysteryhound.press</a></li>
-<li>Youtube: <a href="https://www.youtube.com/@mysteryhoundpress" target="_blank" class="external-link">MysteryHoundPress</a></li>
-<li>Twitch: <a href="https://www.twitch.tv/mysteryhoundpress" target="_blank" class="external-link">mysteryhoundpress</a></li>
+<li><a href="https://www.theartnewspaper.com/2025/04/10/artist-david-salle-on-using-ai-model-enhance-his-painting-practice" target="_blank" class="external-link">‘We tried to train it like it was a kid in art school’: artist David Salle on using an AI model in his painting practice</a> Worth reading in full.</li>
+<li><a href="https://arxiv.org/abs/2406.12027" target="_blank" class="external-link">Adversarial Perturbations Cannot Reliably Protect Artists From Generative AI</a>
+<blockquote>
+<p><em>&quot;all existing protections can be easily bypassed, leaving artists vulnerable to style mimicry&quot;</em></p>
+</blockquote>
+</li>
 </ul>
-<h4 id="gaming" tabindex="-1">Gaming</h4>
-<ul>
-<li><a href="https://www.dungeon.church/" target="_blank" class="external-link">Dungeon Church</a> Bay Area D&amp;D group</li>
-<li>Bluesky: <a href="https://bsky.app/profile/dungeon.church" target="_blank" class="external-link">@dungeon.church</a></li>
-<li>Youtube: <a href="https://www.youtube.com/@DungeonChurch" target="_blank" class="external-link">DungeonChurch</a></li>
-<li>Twitch: <a href="https://www.twitch.tv/dungeonchurch" target="_blank" class="external-link">dungeonchurch</a></li>
-<li>Ko-Fi: <a href="https://ko-fi.com/dungeonchurch" target="_blank" class="external-link">dungeonchurch</a></li>
-<li>BoardGameGeek: <a href="https://boardgamegeek.com/user/dmbrad" target="_blank" class="external-link">dmbrad</a></li>
-<li>RetroAchievements: <a href="https://retroachievements.org/user/diybrad" target="_blank" class="external-link">diybrad</a></li>
-<li>Xbox: <a href="https://www.xbox.com/en-US/play/user/yrdungeonmaster" target="_blank" class="external-link">yrdungeonmaster</a></li>
-<li>Steam: <a href="https://steamcommunity.com/profiles/76561198305613167/" target="_blank" class="external-link">345347439</a></li>
-</ul>
-<h5 id="pgp-signature" tabindex="-1">PGP Signature</h5>
-<p><a href="https://gist.github.com/oakbrad/6867f003b9deb7a413ea77a5ddc10893" target="_blank" class="external-link">Github Gist</a></p>
-<pre><code>-----BEGIN PGP PUBLIC KEY BLOCK-----
-xsBNBGh9tKoBCACpM6aga2hZy4cSAmJicKE3gvLsqviK6BDWVhtZKnye6eCD
-3HYr4MeRbAjeCcjZvdA9NV+37FhSXGe2vi+klk0iDKykE9RBGLJRTnh2qFaP
-pzbU+kRr+CYm8Di8Kbj6ksDza52Xr+B6lyZZHJKIiwyMeewDwGdkBy5Baw5Z
-MjMyrUdJjM/QSSitZhmVBQ9+CR8ITVt7jGJxebkkYgSuowsKrkDyxHlQYyol
-xgOOlmVjj4HGLIaKV0IwXgTVwNopx7g+CVNSA6HWcTbCHNbuRDDBokcs7Jh9
-mYW23ftNlU2HrEqRt8im9+yvcYqcpOTa8uHBuq1ahqDNey5CDyoDJi4PABEB
-AAHNIUJyYWQgV2VubmVyIDxicmFkQGJyYWR3ZW5uZXIuY29tPsLAigQQAQgA
-PgWCaH20qgQLCQcICZDQUk6SpK9jDwMVCAoEFgACAQIZAQKbAwIeARYhBP5l
-T6oWXhwDSkCPgNBSTpKkr2MPAABBqAgAmBNTTygODRNSSjJ3YVRkfRUo7v8T
-ELbpdxrTdTvjo4iiuzCDy03aeCPzmUO450ocX4FIKjuQy5MEvcHKoL8pXwiF
-RPtwXLpQ+sNeM+6olQ7u+Uve5CAiZkbX0iDqsT8aKGqU8DmbWCL6XQgS+orL
-CTRqNhI4K3CBWGEPGKOQlnAhWxm+7z+jV+HKWlsLmHqqekQwCiuH482M3fxM
-Bp96yDff7Dqz6r/9K2FHtF7X72DZ1bGCMx4OffOQrmqlpIcU48h/QeMWcDg8
-FZYldh0akUtadE6tMuH8FCTuwMaK7HRSFl7yU35ZNOUkg97sqENwWwNkOCGb
-DDWvu0aIA3BqAs7ATQRofbSqAQgA0txPLlL7C8O+jISdJ3TfgNhY4MNOmh7g
-emXnFyh0rj3u1NwQfkKfrgPVtD/TXEXODxbiTf5X4Vut2SunVi6mtWDRBS60
-4w+NnbFA6XN1CfYELdOYBm7HfM20j2WRVmn8FYt/gVR2e1rg/4NAECwRwxoB
-b7hZ3RYBdyPQHQjg+rhmMqwc+WIQzBBu7AURzqar+eOzBaeBcyD8zRxb630y
-LDFaw6xzLG7sqJowi34dbIud81SdXdC/0QA4FloD05jbp/dGw8JhBr2EC/0f
-ED3kKpLWgKQGfkzDn0M7ZdaDEe/r+9C0KSM9WjZS9BAhzQrSWYyE3mKFVxkQ
-RhkIa2N3QwARAQABwsB2BBgBCAAqBYJofbSqCZDQUk6SpK9jDwKbDBYhBP5l
-T6oWXhwDSkCPgNBSTpKkr2MPAADaeQf+LM+zSZVad0y5i6Stbk+yabKGjk9L
-EkC02afrBuoXTBxVtKt67Zz1D9A6vKJQQVqcGv2Z59+xS5/yteMgQ056ym+d
-PLW+cG9Lm8AF2ku05mg3dIxerJmpBmdF/bHEqjRZcp9u4PUvvajhEqbvW17/
-JMM5/yHwbVjLw6QfD1G3c83mtkjCmcIdCJ3qwFNxTwIQADy+4zpz0RUY3Qhw
-y9AbNPc9dNOoQOF4e2EiA4efCBn7jd4tYFutBbgU3+Zbz4lV1XPidV7N1d3y
-na6pFsQ3V/c/m3PVAlGmgiwOJ1ZEDgSTdN+D32cy/8XIqOPsVwYiBdUmm2kS
-UwDrA5iAHHUf8w==
-=lTGl
------END PGP PUBLIC KEY BLOCK-----
-</code></pre>
 </main>
 <script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
 <script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
