@@ -3,7 +3,7 @@
 
 <style>
   /* Style for content images that should have lightbox functionality */
-  .content img:not(#dungeon-map img) {
+  .content img {
     cursor: zoom-in;
     transition: all 0.3s ease;
   }
@@ -27,6 +27,25 @@
 </style>
 
 <script>
+  // Configuration: List of selectors to ignore for lightbox functionality
+  // Add any selectors here to exclude them from the lightbox
+  const ignoredSelectors = [
+    '#dungeon-map',  // Dungeon map visualization
+    '.no-lightbox'   // Class to add to any image you want to exclude
+    // Add more selectors here as needed
+  ];
+
+  // Function to check if an image should be excluded from lightbox
+  function shouldExcludeImage(img) {
+    // Check if the image itself has the no-lightbox class
+    if (img.classList.contains('no-lightbox')) {
+      return true;
+    }
+    
+    // Check if the image is inside any of the ignored selectors
+    return ignoredSelectors.some(selector => img.closest(selector) !== null);
+  }
+  
   // Function to get the optimized image source based on the picture element
   function getOptimizedImageSource(pictureElement, sizePattern = '-700') {
     // If there's no picture element, return null
@@ -84,13 +103,16 @@
     setTimeout(function() {
       try {
         // First, add necessary attributes to images for SimpleLightbox to work
-        const contentImages = document.querySelectorAll('.content img:not(#dungeon-map img)');
+        const contentImages = document.querySelectorAll('.content img');
+        let processedImages = 0;
         
         contentImages.forEach(function(img) {
-          // Skip if image is inside dungeon map
-          if (img.closest('#dungeon-map')) {
+          // Skip if image should be excluded based on our configuration
+          if (shouldExcludeImage(img)) {
             return;
           }
+          
+          processedImages++;
           
           // Check if the image is inside a picture element
           const pictureElement = img.closest('picture');
@@ -150,10 +172,11 @@
           maxZoom: 3
         });
         
-        console.log('SimpleLightbox initialized successfully with', contentImages.length, 'images');
+        console.log('SimpleLightbox initialized successfully with', processedImages, 'images');
       } catch (error) {
         console.error('Error initializing SimpleLightbox:', error);
       }
     }, 500);
   });
 </script>
+
