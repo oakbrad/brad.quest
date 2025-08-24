@@ -24,7 +24,7 @@ I first copied [their code](https://github.com/uroybd/topobon) into my template.
 
 Once I had that working, I began using a [coding agent](https://codegen.com/) to describe the changes I wanted. The forest has a CSS skew to achieve the isometric view, and the icons are portrait format so that they overlap, giving it depth and a sense of being overgrown.
 
-I first remove the skew and changed the visualization so it generated a simple table of squares. Then I added square icons from [this Zelda-style tileset](https://jaymarksman.itch.io/retro-dungeon-dx).
+I first removed the skew and changed the visualization so it generated a simple table of squares. Then I added square icons from [this Zelda-style tileset](https://jaymarksman.itch.io/retro-dungeon-dx).
 
 I did some research on methods to randomly generate dungeon maps and the answer was [binary space partitioning](https://gamedev.stackexchange.com/questions/82059/algorithm-for-procedural-2d-map-with-connected-paths), a common algorithm used in rogue-likes. This is the type of thing I would not be able to code on my own, but if you have enough understanding of the problem a coding agent can stitch together the pieces. *Modify this function in this file to use this algorithm to return a table...* After throwing some vibe code at it and tweaking the styles and metaphors, I arrived at the first version of the dungeon:
 ![dungeon-map-v1.png](/img/user/System/Uploads/dungeon-map-v1.png)
