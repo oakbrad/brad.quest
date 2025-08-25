@@ -26,14 +26,24 @@
     {% endfor %}
   </div>
   
-  {# Legend showing icon types and counts #}
-  <div class="dungeon-legends">
-    {% for legend in userComputed.dungeon.legends %}
-      <div class="dungeon-legend">
-        <img src="/img/{{ legend.icon }}.png" alt="{{ legend.icon }}" />
-        <span>{{ legend.label }} ({{ legend.count }})</span>
-      </div>
-    {% endfor %}
-  </div>
+{# Legend showing icon types and counts #}
+<div class="dungeon-legends">
+  {% set total = 0 %}
+  {% for legend in userComputed.dungeon.legends %}
+    {% set total = total + legend.count %}
+  {% endfor %}
+
+  {% for legend in userComputed.dungeon.legends %}
+    <div class="dungeon-legend">
+      <span>{{ legend.count }}</span>
+      <img src="/img/{{ legend.icon }}.png" alt="{{ legend.label }}" />
+      {% if not loop.last %}
+        <span style="color: rgba(128,128,128,.5)">&nbsp;+</span>
+      {% else %}
+        <span>&nbsp;=  {{ total }} </span>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
 </div>
 
