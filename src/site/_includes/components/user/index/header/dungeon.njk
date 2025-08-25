@@ -38,9 +38,9 @@
       <span>{{ legend.count }}</span>
       <img src="/img/{{ legend.icon }}.png" alt="{{ legend.label }}" />
       {% if not loop.last %}
-        <span style="color: rgba(128,128,128,.5)">&nbsp;+</span>
+        <span style="color: rgba(128,128,128,.5)">+</span>
       {% else %}
-        <span>&nbsp;=  <code>{{ total }}</code> </span>
+        <span style="color: rgba(128,128,128,.5)">&nbsp;=&nbsp;&nbsp;<code>{{ total }}</code></span>
       {% endif %}
     </div>
   {% endfor %}
