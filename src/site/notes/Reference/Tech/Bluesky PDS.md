@@ -7,6 +7,7 @@
 [Bluesky](https://bsky.app/) is built on the open [ATProto](https://atproto.com/) network. The **P**ersonal **D**ata **S**erver is the network unit that serves as a repository for user data, identity, and media on the network.
 
 <center><blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:w4xbfzo7kqfes5zb7r6qv3rw/app.bsky.feed.post/3ludcalt7i224" data-bluesky-cid="bafyreigkq2j5c4pov7uqzvyijctafsyroyb4ws63hug2djsz7x267s2zva" data-bluesky-embed-color-mode="dark"><p lang="en">I would just like to inject in everyone&#x27;s imaginations that at least one (1) path to a network of many networks, a fediverse of many fediverses, is a community of many communities. And that might mean more people should found new communities. And tools should be developed to make that easier.</p>&mdash; Rudy wants revolution. (<a href="https://bsky.app/profile/did:plc:w4xbfzo7kqfes5zb7r6qv3rw?ref_src=embed">@rudyfraser.com</a>) <a href="https://bsky.app/profile/did:plc:w4xbfzo7kqfes5zb7r6qv3rw/post/3ludcalt7i224?ref_src=embed">Jul 19, 2025 at 8:39 AM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script></center>
+
 **Why self host?**
 * [Protocols, Not Platforms](https://knightcolumbia.org/content/protocols-not-platforms-a-technological-approach-to-free-speech) by [Mike Masnick](https://bsky.app/profile/mmasnick.bsky.social)
 * [Information Civics](https://github.com/pfrazee/infocivics) by [Paul Frazee](https://bsky.app/profile/pfrazee.com)
