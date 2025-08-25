@@ -40,6 +40,26 @@ body.backlinks-note-icon .backlink[data-note-icon="withered"]::before {
 body {
   &.theme-dark {
     
+    /* Floating links on right */
+    #floating-links {
+      position: fixed;
+      color: var(--link-color);
+      bottom: 1vmax;
+      right: 1.2vmax;
+      font-size: 24px;
+      z-index: 999999;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      gap: 5px;
+
+      .svg-icon,
+      i {
+        cursor: pointer;
+        height: 24px;
+        width: auto;
+      }
+    }
     /* Dungeon visualization styles */
     #dungeon-map {
       display: flex;
@@ -168,3 +188,4 @@ body {
     }
   }
 }
+
