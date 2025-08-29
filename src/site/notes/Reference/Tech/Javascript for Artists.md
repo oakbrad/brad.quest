@@ -17,3 +17,6 @@ Javascript libraries for creating visualizations.
 * [three.js](https://threejs.org/) - WebGL for interactive 3D
 * [two.js](https://github.com/jonobr1/two.js) - two-dimensional drawing
 * [TimelineJS](https://timeline.knightlab.com/) - timelines or linear presentations from spreadsheets
+
+# Inspiration
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/xD1KyoXm7vQ?si=Rfw28iQcPO2mkthZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>

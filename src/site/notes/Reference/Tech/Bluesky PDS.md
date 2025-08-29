@@ -18,6 +18,7 @@
 * [pdsadmin-web](https://mkizka.github.io/pdsadmin-web/) - a web based tool for performing some basic admin functions
 * [PDS Moover](https://pdsmoover.com/) - migrate accounts between PDS
 * [Independent PDS Directory](https://blue.mackuba.eu/directory/pdses)
+* [did:web](https://atproto-did-web.lukeacl.com/) - tool to create `did:web` accounts on a self hosted PDS
 # Setting up the PDS
 Running the official PDS Docker container is pretty simple. It's pretty lightweight, so you don't need a fancy server to run it. I use the OCI Free Tier for both my server and their object storage (S3). You could definitely do this on something like a [Raspberry Pi](https://amzn.to/4mNYSNL).
 
@@ -103,6 +104,12 @@ I used [PDS MOOver](https://pdsmoover.com/) and it worked perfectly for consolid
 <center><blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:g7j6qok5us4hjqlwjxwrrkjm/app.bsky.feed.post/3lw3hcuojck2u" data-bluesky-cid="bafyreieowrhsk4r2qzx7vknkuvavz5edhuckex75uy6mqmrdwnd4rg5gma" data-bluesky-embed-color-mode="dark"><p lang="en">Entry 31 - Migrating from the Bluesky PDS to the #BlackSky PDS with PDS MOOver #SharpieVLOG<br><br><a href="https://bsky.app/profile/did:plc:g7j6qok5us4hjqlwjxwrrkjm/post/3lw3hcuojck2u?ref_src=embed">[image or embed]</a></p>&mdash; dapurplesharpie 🔜 #ATProto_NYC (<a href="https://bsky.app/profile/did:plc:g7j6qok5us4hjqlwjxwrrkjm?ref_src=embed">@sharpiepls.com</a>) <a href="https://bsky.app/profile/did:plc:g7j6qok5us4hjqlwjxwrrkjm/post/3lw3hcuojck2u?ref_src=embed">Aug 10, 2025 at 4:39 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script></center>
 
 You receive the final PLC code via email. If you are moving from an old self hosted PDS, double check that your SMTP is working properly on that server before attempting this or you won't receive the PLC.
+# did:web
+By default, accounts are created with [`did:plc`](https://github.com/did-method-plc/did-method-plc). It also possible to create accounts with [`did:web`](https://w3c-ccg.github.io/did-method-web/)
+1. Use didweb tool to create a private key and did.json file.
+2. Place the did.json at `yoursite.tld/.well-known/did.json`. In my case I'm going to attach it here then proxy redirect to the file:
+
+![[did.json]]
 # Future
 * Docker [pdsadmin](https://github.com/cr0ssing/pdsadmin-docker)?
 # More ATProto
@@ -111,3 +118,4 @@ You receive the final PLC code via email. If you are moving from an old self hos
 * [recipe.exchange](https://recipe.exchange/) here is a recipe for [Cajun dirty rice](https://recipe.exchange/recipes/01JEY7M7SXDCKHKE3EC4Y4EJ1F)
 * [Smoke Signal](https://smokesignal.events/) events & RSVPs
 * [teal.fm](https://teal.fm/) music history ala last.fm
+* [semble](https://semble.so/) open research
