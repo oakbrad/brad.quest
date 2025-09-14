@@ -6,7 +6,7 @@
 # What am I up to currently?
 Professionally, since the pandemic I've been mostly focused on providing [digital capture services](https://bradwenner.digital/) to photo productions. I like being on set and solving problems with other creative people.
 
-My current personal projects involve [[Projects/Programming Projects\|learning Python]] and hacking away on an [Evennia](https://www.evennia.com/)-based [[Projects/Pyora MUD/Playing MUDs in 2025\|MUD]] game. I've also been exploring AI [[Reference/Tech/Vibecoding\|vibecoding]] tools and have had some success turning [data into visualizations](https://github.com/oakbrad/dungeonchurch-oracle), which is something I want to [[Reference/Tech/Javascript for Artists\|explore]] more of.
+My current personal projects involve [[Projects/Programming Projects\|learning Python]] and hacking away on an [Evennia](https://www.evennia.com/)-based [[Projects/PyoraMUD/Playing MUDs in 2025\|MUD]] game. I've also been exploring AI [[Reference/Tech/Vibecoding\|vibecoding]] tools and have had some success turning [data into visualizations](https://github.com/oakbrad/dungeonchurch-oracle), which is something I want to [[Reference/Tech/Javascript for Artists\|explore]] more of.
 
 <center><iframe width=700 height=500 src=https://oakbrad.github.io/dungeonchurch-oracle></iframe></center>
 

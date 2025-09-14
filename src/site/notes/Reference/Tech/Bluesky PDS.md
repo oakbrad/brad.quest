@@ -115,6 +115,7 @@ By default, accounts are created with [`did:plc`](https://github.com/did-method-
 # More ATProto
 * [BookHive](https://bookhive.buzz/) book tracking
 * [Graze](https://www.graze.social/) custom feeds
+* [Leaflet.pub](https://leaflet.pub/home) long form writing
 * [recipe.exchange](https://recipe.exchange/) here is a recipe for [Cajun dirty rice](https://recipe.exchange/recipes/01JEY7M7SXDCKHKE3EC4Y4EJ1F)
 * [Smoke Signal](https://smokesignal.events/) events & RSVPs
 * [teal.fm](https://teal.fm/) music history ala last.fm

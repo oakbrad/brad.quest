@@ -35,4 +35,6 @@ Tools for generating bins, bases, and accessories.
 There is also a Gridfinity [Fusion360 App](https://apps.autodesk.com/FUSION/en/Detail/Index?id=7197558650811789) and the python library [cq-gridfinity](https://github.com/michaelgale/cq-gridfinity)
 # Case Studies
 > [!attention] WIP
-> 
+
+# Interesting Gridfinity
+* [Modular Home Assistant electronic sensors](https://www.reddit.com/r/gridfinity/comments/1nck1pi/working_on_a_gridfinity_home_assistant_modular/)
